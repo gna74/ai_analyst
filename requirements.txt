@@ -1,0 +1,21 @@
+# --- Core dependencies (pipeline) ---
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.3
+requests>=2.31
+tqdm>=4.66
+python-dotenv>=1.0
+jsonschema>=4.23
+aiohttp>=3.9
+certifi>=2024.6
+
+# --- Dev & tooling ---
+ipykernel>=6.29      # запуск Jupyter в VS Code
+jupyterlab>=4.2      # JupyterLab IDE (опционально)
+notebook>=7.2        # классический Jupyter
+pytest>=8.3          # для тестов
+pytest-asyncio>=0.23 # для тестов асинхронного кода
+black>=24.4          # автоформатирование
+isort>=5.13          # сортировка импортов
+flake8>=7.0          # линтер
+mypy>=1.10           # статический анализ типов

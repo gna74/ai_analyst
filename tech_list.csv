@@ -1,0 +1,504 @@
+﻿tech_id;name
+1;3d bioprinting and tissue engineering
+2;3d modeling and generative 3d environments (e.g., ai-generated textures, procedural content generation)
+3;3d printing
+4;4d printing
+5;5g
+6;5g advanced (5.5g)
+7;5g and 6g cellular system
+8;5g from space
+9;5g vehicle to everything (v2x) communication
+10;acoustic ai
+11;acoustic sensing with ai
+12;adaptative materials modelling
+13;adaptive ai
+14;adaptive technology
+15;additive manufacturing
+16;advanced actuators and motion control
+17;advanced battery management system
+18;advanced connectivity
+19;advanced haptic feedback devices (e.g., haptic gloves, vr treadmill)
+20;advanced haptics/tactile sensing
+21;advanced in space refueling
+22;advanced on chip interconnect
+23;advanced robotics sensor
+24;advanced semiconductor manufacturing
+25;advanced solar pv system
+26;agent concierge system
+27;ai accelerators (custom)
+28;ai agent
+29;ai asic
+30;ai augmented metadata management
+31;ai augmented robotic
+32;ai based anomaly detection system
+33;ai coache
+34;ai copilot
+35;ai driven advanced sensors and edge ai processor
+36;ai driven earth observation system
+37;ai driven mineral/resource exploration (e.g., kobold metals)
+38;ai driven threat detection and cybersecurity tool
+39;ai enabled video surveillance
+40;ai enhanced text to image generation
+41;ai enhanced text to video generation
+42;ai for drug discovery
+43;ai for material discovery
+44;ai for protein design
+45;ai gateway
+46;ai generated avatar
+47;ai generated phishing and malware technique
+48;ai governance platform
+49;ai health coaching
+50;ai inference chip
+51;ai powered chatbot
+52;ai powered command & control system
+53;ai powered drug discovery (e.g., protein engineering foundry)
+54;ai powered fleet management/logistic
+55;ai powered iot system
+56;ai-powered rendering, tracking, and processing for ar/vr
+57;ai powered voice assistant
+58;ai ran (ai enabled radio access network)
+59;ai runtime protection
+60;ai search engine
+61;ai toolchain operator
+62;ai vision software
+63;ai voice cloning
+64;algae bioreactor
+65;algorithmic management
+66;ambient computing
+67;ambient digital scribe
+68;ambient invisible intelligence
+69;analytical engines for data driven insight
+70;application layer
+71;application proxy
+72;application specific integrated circuits (asics)
+73;artificial general intelligence (agi)
+74;artificial superintelligence (asi)
+75;attosecond pulse laser
+76;augmented reality (ar)
+77;automated firmware verification tool
+78;automated observability tool
+79;automated workflow capabilities (e.g., speech to text)
+80;automation for governance, risk, and compliance (grc)
+81;automotive iot
+82;autonomous agent
+83;autonomous biochemical sensing
+84;autonomous delivery robot
+85;autonomous driving system
+86;autonomous drone
+87;autonomous ground vehicles (ugvs)
+88;autonomous logistic
+89;autonomous mobile robots (amrs)
+90;autonomous navigation and decision making
+91;autonomous robot
+92;autonomous vehicle
+93;backscatter communication
+94;battery  and liquid cooling systems for data center
+95;battery energy storage systems (including long duration and thermal storage)
+96;battery recycling
+97;bidirectional brain machine interfaces (bbmis)
+98;bidirectional charging system
+99;bio computation platform
+100;bio engineered material
+101;bio inspired processing
+102;bio inspired robotic
+103;bioengineered light emitting plant
+104;bioengineered neurointerface
+105;biofuel
+106;biogas and biomass
+107;biollm
+108;biological interface
+109;biomanufacturing
+110;biomaterials (eco-friendly, e.g., collagen scaffolds)
+111;biometric authentication
+112;biometric monitoring
+113;biomimetic cyberdefense
+114;biophotonic
+115;bioprinting
+116;blockchain
+117;blockchain and distributed ledger
+118;brain computer interface
+119;brainвЂ“computer interfaces (bci)
+120;brine crystallisation
+121;business process automation (bpa)
+122;calcium based batterie
+123;carbon capture and storage (ccs)
+124;cattle burping remedie
+125;cell cultivation system
+126;central bank digital currencies  (cbdcs)
+127;chain of thought prompting
+128;chain of thought reasoning
+129;chaos engineering
+130;chatbot
+131;circular economy manufacturing
+132;circulating biomarker
+133;cleaner jet fuel
+134;cloud access control platform
+135;cloud and edge computing
+136;cloud based security system
+137;cloud computing
+138;cloud storage (object/block storage)
+139;cloud video
+140;co packaged optic
+141;coding automation tool
+142;cognitive robotics system
+143;collaborative robot
+144;collaborative sensing
+145;computer vision
+146;concentrated solar power
+147;confidential computing
+148;construction robotic
+149;containers and kubernete
+150;content credentials (c2pa standard)
+151;continuous learning
+152;crop intelligence
+153;crypto wallet
+154;cryptocurrency
+155;custom silicon
+156;cybersecurity mesh framework (csmf)
+157;data center
+158;data centric ai
+159;data fabric
+160;data infrastructure and management system
+161;data integration
+162;data lakehouse platform
+163;data mesh
+164;data mining
+165;decentralized applications (dapps)
+166;decentralized exchanges (dexs)
+167;decentralized finance (defi)
+168;decentralized identity system
+169;decentralized intelligent system
+170;deep learning model
+171;deep reinforcement learning
+172;devops metrics (dora)
+173;die to die optical interconnect
+174;digital asset
+175;digital avatars (e.g., apple persona)
+176;digital coworker
+177;digital identity (including self-sovereign identity, passwordless, converged identity)
+178;digital immune system
+179;digital infrastructure (sql/nosql databases, compute/storage networks)
+180;digital therapeutic
+181;digital twin
+182;digital twin ecosystem
+183;digital wallet
+184;direct to chip liquid cooling
+185;direct to device satellite communication
+186;direct to device satellite connectivity
+187;distributed computing
+188;distributed edge intelligence network
+189;distributed gain laser architecture
+190;dna sequencing
+191;dna synthesi
+192;drones (including delivery drones, underwater drones)
+193;e discovery
+194;earth observation satellite
+195;edge ai
+196;edge ai processor
+197;edge computing (device edge, operator/network/mobile/metro edge)
+198;electric vehicle
+199;electrified heat solutions (e.g., rotodynamic heater)
+200;electrobiosynthesis
+201;electronic health records (ehrs)
+202;embodied ai
+203;embryo cryopreservation
+204;empiric ai
+205;energy efficient gpu
+206;energy optimization material
+207;energy storage
+208;engineered living therapeutic
+209;enhanced geothermal systems (egs)
+210;environmental sensor
+211;erp (enterprise resource planning) system
+212;exoskeleton
+213;explainable ai
+214;fast learning robot
+215;federated learning
+216;finops (financial operations)
+217;flexible/stretchable electronics  (e.g., electronic skin, smart bandages)
+218;flywheel
+219;foundation model
+220;fpv (first person view) drone
+221;fusion
+222;gene editing
+223;generative ai
+224;generative ai search
+225;generative design engineering
+226;generative engine optimization (geo)
+227;generative watermarking
+228;geothermal power generation
+229;glp 1s for neurodegenerative disease
+230;graphics processing units (gpus)
+231;green hydrogen
+232;green methanol shipping, circular supply chain
+233;green nitrogen fixation
+234;green steel
+235;health informatic
+236;heat pump
+237;high altitude platform system
+238;high bandwidth memory (hbm)
+239;homomorphic encryption
+240;humanoid robot
+241;hybrid cloud migration
+242;hybrid computing
+243;hybrid copper bonding
+244;hybrid quantum classical computing system
+245;hybrid rag
+246;hydrogen fuel cell
+247;hydrogen production (including electrolyzers)
+248;hydrogen storage
+249;hyperparameter tuning
+250;hyperscale data center
+251;hypersonic flight
+252;hypersonic spaceplane
+253;imaging and radiomic
+254;immersion cooling
+255;immersive platform
+256;immersive reality technologie
+257;immersive technologies & wearable
+258;immutable backup and self healing network
+259;in memory computing
+260;in orbit manufacturing
+261;in row cooling
+262;in space manufacturing
+263;in space transportation
+264;industrial internet of things (iiot)
+265;inference time compute
+266;integration platform as a service (ipaas)
+267;integration/tooling layer
+268;intelligent grid system
+269;internet of robotic things (iort)
+270;internet of things (iot)
+271;internet of underwater things (iout)
+272;interoperability tech
+273;just enough access (for agents)
+274;just in time access (for agents)
+275;knowledge graph
+276;kubeflow
+277;kubernete
+278;large action models (lams)
+279;large language models (llms)
+280;large multimodal models (lmms)
+281;laser additive manufacturing
+282;laser based medical imaging
+283;laser communication
+284;laser weapon
+285;layer 2 blockchain
+286;liquid biopsy
+287;liquid cooling
+288;liquid staking
+289;llm (large language model)
+290;local silicon interconnect bridge
+291;location based augmented reality
+292;location risk intelligence
+293;long acting hiv prevention med
+294;long duration energy storage
+295;long term memory
+296;low code application platforms (lcaps)
+297;low cost tags and sensor
+298;low earth orbit (leo) satellite
+299;low-power wide-area networks (e.g., narrowband iot, lora, sigfox)
+300;lunar surface vehicle
+301;machine learning
+302;machine learning for materials discovery
+303;manned spacecraft (e.g., orion)
+304;measurement, reporting, and verification (mrv) systems
+305;mechanistic interpretability
+306;metabolic engineering
+307;metamaterial
+308;microgrid
+309;microled photonic
+310;microservices & api
+311;mixed reality
+312;modular architecture
+313;modular robot
+314;molten salt reactor
+315;mrna (messenger rna)
+316;mrna lipid nanoparticle technology
+317;multi agent autonomy
+318;multi agent system
+319;multi cancer screening (liquid biopsy)
+320;multimodal data integration (text, images, video)
+321;multimodal model
+322;multiomic
+323;multisensory vr systems (e-taste, flavor simulation)
+324;nanomedicine
+325;nanotechnology
+326;nanozyme
+327;natural language processing
+328;network slicing
+329;neural network
+330;neural processing units (npus)
+331;neurodecisioning
+332;neuromorphic architecture
+333;neuromorphic computing
+334;neurotechnology
+335;new energy at scale
+336;niobium anode
+337;non human identity
+338;non terrestrial networks (ntns)
+339;nuclear energy
+340;nuclear fission
+341;nuclear fusion
+342;observability tools (e.g., langsmith)
+343;ocean thermal energy conversion (otec)
+344;omics (single-cell sequencing, proteomics, multiomics)
+345;optical circuit switching
+346;optical computing
+347;optical fiber
+348;optical ground antenna
+349;optical interconnect
+350;optical neuromonitoring
+351;optogenetic
+352;organic interposer
+353;organs on chip
+354;osmotic power system
+355;parametric insurance
+356;perovskite tandem solar panel
+357;personal ai
+358;personal algorithm
+359;personal large action model
+360;personalized assistant
+361;personalized/precision medicine
+362;pharmacogenomic
+363;phased array antenna
+364;photonic computing
+365;photonic interposer
+366;polyfunctional robot
+367;post quantum cryptography
+368;precision bio production
+369;precision fermentation
+370;predictive ai
+371;predictive analytic
+372;printed electronic
+373;privacy engineering
+374;privacy enhancing tech
+375;private wireless networks (including private 5g)
+376;process mining tool
+377;programming frameworks (e.g., langchain, autogen, crewai)
+378;public key cryptography  (asymmetric cryptography)
+379;quadruped robot
+380;quantum as a service (qaas)
+381;quantum chemistry
+382;quantum communication
+383;quantum computing
+384;quantum control software
+385;quantum dot laser
+386;quantum enhanced measurement
+387;quantum error correction
+388;quantum key distribution (qkd)
+389;quantum networking
+390;quantum processing units (qpus)
+391;quantum resistant algorithm
+392;quantum resistant cryptography
+393;quantum secured algorithm
+394;quantum sensor
+395;qubit virtualization system
+396;raman spectroscopy
+397;reasoning model
+398;redox flow batterie
+399;refueling station
+400;reinforcement learning
+401;reinforcement learning with human feedback (rlhf)
+402;remote photoplethysmography tool
+403;remote sensing
+404;hyperspectral imaging
+405;renewable energy storage
+406;restaking
+407;retrieval augmented generation (rag)
+408;reusable rocket
+409;rip and replace migration
+410;rnai (rna interference)
+411;robotaxi
+412;robotic
+413;robotic foundation models (rfms)
+414;robotic process automation (rpa)
+415;robotics as a service (raas)
+416;robotics cybersecurity
+417;room temperature fusion
+418;satellite based communication
+419;satellite collision avoidance system
+420;satellite constellation
+421;satellite infrastructure
+422;scaling blockchain
+423;security monitoring automation
+424;security operations center ai agent
+425;self assembling molecule
+426;self driven ai cybersecurity algorithm
+427;self driving labs (sdls)
+428;semantic ai
+429;serverless computing
+430;shared mobility platforms / mobility as a service
+431;silicon anode batteries
+432;silicon nanowire based lithium  battery anode
+433;silicon photonic
+434;simulation based learning
+435;single cell analysis
+436;single cell genomic
+437;small language model
+438;small modular reactors (smrs)
+439;small satellites (including cubesats)
+440;small/distilled/quantized model
+441;smart contract
+442;smart glasses
+443;smart grid
+444;smart material
+445;smart speech robot
+446;soft robotic
+447;solar photovoltaics (pv)
+448;solid state batterie
+449;solid state lidar
+450;sovereign cloud
+451;space based data center
+452;space based data service
+453;space based solar power
+454;space traffic management (stm)
+455;spatial computing
+456;spatial intelligence
+457;spatial processing
+458;speech to speech model
+459;stablecoin
+460;stem cell therapies that work
+461;straight through processing (stp)
+462;structural battery composite
+463;superapp
+464;supercapacitors / ultracapacitor
+465;supervised fine tuning (sft)
+466;sustainable concrete technologie
+467;sustainable fuels (e-fuels, advanced biofuels, synthetic fuels)
+468;swarm robotics system
+469;symmetric cryptography
+470;synthetic biology
+471;synthetic chromosome
+472;synthetic data
+473;synthetic rna
+474;tactile sensing
+475;telehealth
+476;thin film lithium niobate (tfln) modulator
+477;thorium based transmutation
+478;tinyml
+479;titanium sapphire laser
+480;tokenization (including stablecoins, nfts, tokenized real-world/financial assets)
+481;topological qubit
+482;touchless biometric
+483;transformer model
+484;trusted execution environments (tees)
+485;uncrewed surface vessels (usvs)
+486;urban air mobility / electric vertical takeoff and landing aircraft (evtol)
+487;vector database
+488;virtual cell
+489;virtual credit cards (for ai agent)
+490;virtual reality (vr)
+491;virtualization
+492;vision language action (vla) model
+493;vision language models (vlms)
+494;voice user interfaces (vuis)
+495;waste heat recovery
+496;water treatment system
+497;wearable computing
+498;wearable sensor
+499;wind energy
+500;x ray free electron lasers (xfels)
+501;xlstm
+502;zero gravity manufacturing
+503;zero knowledge proof

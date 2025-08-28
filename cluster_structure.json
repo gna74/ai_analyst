@@ -1,0 +1,769 @@
+[
+  {
+    "cluster_label": "AI Reasoning and Inference Systems",
+    "cluster_short_description": "This cluster encompasses technologies and methodologies focused on structured logical reasoning, inference, and analytical processing in artificial intelligence. It includes systems that perform step-by-step reasoning, derive insights from data, ensure explainability of AI decisions, and handle computational aspects of model execution for problem-solving and knowledge extraction.",
+    "technologies": [
+      "analytical engines for data driven insight",
+      "chain of thought prompting",
+      "chain of thought reasoning",
+      "explainable ai",
+      "generative design engineering",
+      "hybrid rag",
+      "inference time compute",
+      "knowledge graph",
+      "mechanistic interpretability",
+      "neurodecisioning",
+      "predictive analytic",
+      "reasoning model"
+    ]
+  },
+  {
+    "cluster_label": "Sensing and Monitoring Technologies for Physiological and T…",
+    "cluster_short_description": "This cluster encompasses technologies focused on sensing, measuring, and monitoring physiological and tactile parameters through devices like wearable sensors, haptic systems, and biometric monitors. It includes systems for force measurement, feedback, and tracking, enabling applications in health monitoring, human-machine interaction, and authentication without physical contact.",
+    "technologies": [
+      "adaptive technology",
+      "advanced haptic feedback devices (e.g., haptic gloves, vr treadmill)",
+      "advanced haptics/tactile sensing",
+      "biometric monitoring",
+      "environmental sensor",
+      "flexible/stretchable electronics  (e.g., electronic skin, smart bandages)",
+      "low cost tags and sensor",
+      "measurement, reporting, and verification (mrv) systems",
+      "multisensory vr systems (e-taste, flavor simulation)",
+      "remote photoplethysmography tool",
+      "smart glasses",
+      "tactile sensing",
+      "touchless biometric",
+      "wearable sensor",
+      "wearable computing"
+    ]
+  },
+  {
+    "cluster_label": "Autonomous and AI-Enhanced Robotic Systems",
+    "cluster_short_description": "This cluster encompasses technologies focused on robots and systems that operate autonomously or with AI augmentation, enabling independent decision-making, mobility, and adaptive behavior in various environments. It includes autonomous robots, AI-augmented robotics, cognitive systems, and mobile robots, all designed to perform tasks with minimal human intervention through integrated sensing, computation, and actuation.",
+    "technologies": [
+      "advanced actuators and motion control",
+      "advanced robotics sensor",
+      "ai augmented robotic",
+      "autonomous delivery robot",
+      "autonomous driving system",
+      "autonomous drone",
+      "autonomous logistic",
+      "autonomous robot",
+      "autonomous ground vehicles (ugvs)",
+      "autonomous navigation and decision making",
+      "autonomous mobile robots (amrs)",
+      "autonomous vehicle",
+      "bio inspired robotic",
+      "collaborative robot",
+      "cognitive robotics system",
+      "construction robotic",
+      "embodied ai",
+      "exoskeleton",
+      "fast learning robot",
+      "humanoid robot",
+      "modular robot",
+      "polyfunctional robot",
+      "quadruped robot",
+      "robotaxi",
+      "robotic",
+      "self driving labs (sdls)",
+      "soft robotic",
+      "swarm robotics system",
+      "uncrewed surface vessels (usvs)"
+    ]
+  },
+  {
+    "cluster_label": "Advanced Biomanufacturing and Bioengineering",
+    "cluster_short_description": "This cluster focuses on technologies that use biological systems, such as cells and microorganisms, for sustainable production of materials and compounds. It includes methods like precision fermentation, cell cultivation, and biomanufacturing, often enhanced with real-time monitoring, automation, and machine learning to optimize metabolic processes and improve efficiency in bioreactors.",
+    "technologies": [
+      "algae bioreactor",
+      "bio computation platform",
+      "bio engineered material",
+      "bioengineered light emitting plant",
+      "biomanufacturing",
+      "cell cultivation system",
+      "circulating biomarker",
+      "engineered living therapeutic",
+      "metabolic engineering",
+      "organs on chip",
+      "precision bio production",
+      "precision fermentation",
+      "stem cell therapies that work"
+    ]
+  },
+  {
+    "cluster_label": "Cloud Data and Infrastructure Management",
+    "cluster_short_description": "This cluster encompasses technologies focused on cloud-based solutions for data storage, access, computing, and security, tailored for enterprise environments. It includes services like cloud computing, storage, access control, and security systems, all managed through scalable, on-demand infrastructure to support efficient data handling and protection.",
+    "technologies": [
+      "cloud access control platform",
+      "cloud computing",
+      "cloud storage (object/block storage)",
+      "cloud based security system",
+      "cloud video",
+      "data center",
+      "data lakehouse platform",
+      "data infrastructure and management system",
+      "finops (financial operations)",
+      "hybrid cloud migration",
+      "hyperscale data center",
+      "integration platform as a service (ipaas)",
+      "just enough access (for agents)",
+      "just in time access (for agents)",
+      "rip and replace migration",
+      "shared mobility platforms / mobility as a service",
+      "sovereign cloud",
+      "virtualization"
+    ]
+  },
+  {
+    "cluster_label": "Solar and Renewable Energy Generation Technologies",
+    "cluster_short_description": "This cluster encompasses technologies focused on harnessing solar and renewable energy sources for electricity generation. It includes solar photovoltaics (PV) that convert sunlight directly into electricity, advanced PV systems with enhanced efficiency, concentrated solar power (CSP) that uses thermal energy from sunlight, space-based solar power for collecting solar radiation in space, and wind energy that converts kinetic energy from wind into power. These technologies emphasize sustainability, efficiency in energy conversion (e.g., per m² or MW), and integration into utility grids for clean energy production.",
+    "technologies": [
+      "advanced solar pv system",
+      "concentrated solar power",
+      "osmotic power system",
+      "perovskite tandem solar panel",
+      "solar photovoltaics (pv)",
+      "space based solar power",
+      "wind energy"
+    ]
+  },
+  {
+    "cluster_label": "Renewable Energy Storage and Geothermal Power Systems",
+    "cluster_short_description": "This cluster focuses on technologies for storing energy, particularly from renewable sources, and generating power from geothermal heat. It includes methods like hydrogen storage, enhanced geothermal systems, and general energy storage solutions to improve grid efficiencies and manage intermittent renewable generation.",
+    "technologies": [
+      "brine crystallisation",
+      "carbon capture and storage (ccs)",
+      "embryo cryopreservation",
+      "energy storage",
+      "enhanced geothermal systems (egs)",
+      "flywheel",
+      "geothermal power generation",
+      "hydrogen storage",
+      "new energy at scale",
+      "renewable energy storage",
+      "waste heat recovery",
+      "water treatment system"
+    ]
+  },
+  {
+    "cluster_label": "Nuclear Energy and Fusion Technologies",
+    "cluster_short_description": "This cluster encompasses technologies and processes related to nuclear energy generation, including nuclear fission and fusion. It covers the splitting of heavy atomic nuclei (fission) and the combining of light nuclei (fusion) to release energy, with applications in electricity production. It also includes emerging concepts like room temperature fusion, which aims to achieve fusion at lower temperatures than traditional methods.",
+    "technologies": [
+      "fusion",
+      "molten salt reactor",
+      "nuclear energy",
+      "nuclear fusion",
+      "nuclear fission",
+      "room temperature fusion",
+      "small modular reactors (smrs)",
+      "thorium based transmutation"
+    ]
+  },
+  {
+    "cluster_label": "Blockchain Scalability and Security Enhancements",
+    "cluster_short_description": "This cluster focuses on technologies and protocols that improve blockchain scalability and security, including Layer 2 solutions for faster transactions, restaking for extending security, and application proxies for network-level protection, all while maintaining decentralization and addressing the blockchain trilemma.",
+    "technologies": [
+      "application proxy",
+      "layer 2 blockchain",
+      "restaking",
+      "scaling blockchain"
+    ]
+  },
+  {
+    "cluster_label": "Distributed Edge and Cloud Computing Architecture",
+    "cluster_short_description": "This cluster focuses on computing architectures that distribute processing across networks, combining centralized cloud resources with decentralized edge devices to enhance data handling, intelligence, and efficiency in systems like AI and IoT.",
+    "technologies": [
+      "ai powered iot system",
+      "ambient computing",
+      "ambient invisible intelligence",
+      "chaos engineering",
+      "cloud and edge computing",
+      "data fabric",
+      "data mesh",
+      "decentralized intelligent system",
+      "distributed computing",
+      "distributed edge intelligence network",
+      "edge computing (device edge, operator/network/mobile/metro edge)",
+      "federated learning",
+      "intelligent grid system",
+      "microgrid",
+      "microservices & api",
+      "modular architecture",
+      "network slicing",
+      "smart grid"
+    ]
+  },
+  {
+    "cluster_label": "AI-Powered Voice and Speech Technologies",
+    "cluster_short_description": "This cluster encompasses technologies that leverage artificial intelligence to process, generate, and interact through human speech and voice. It includes AI-powered voice assistants, chatbots, and speech robots that enable personalized, conversational interactions, as well as advanced features like voice cloning using deep learning for realistic audio synthesis.",
+    "technologies": [
+      "acoustic ai",
+      "acoustic sensing with ai",
+      "ai coache",
+      "ai health coaching",
+      "ai powered chatbot",
+      "ai powered voice assistant",
+      "ai voice cloning",
+      "ambient digital scribe",
+      "chatbot",
+      "generative ai search",
+      "personalized assistant",
+      "smart speech robot",
+      "voice user interfaces (vuis)"
+    ]
+  },
+  {
+    "cluster_label": "Specialized AI Accelerators for Inference Processing",
+    "cluster_short_description": "This cluster encompasses hardware technologies such as AI accelerators, ASICs, NPUs, and edge processors that are specifically designed to optimize artificial intelligence workloads, particularly inference tasks. These components provide enhanced processing power, memory efficiency, and low-latency performance for running pre-trained AI models, distinguishing them from general-purpose processors by their specialized, fixed-function architectures.",
+    "technologies": [
+      "ai accelerators (custom)",
+      "ai asic",
+      "ai driven advanced sensors and edge ai processor",
+      "ai inference chip",
+      "application specific integrated circuits (asics)",
+      "custom silicon",
+      "edge ai",
+      "edge ai processor",
+      "energy efficient gpu",
+      "graphics processing units (gpus)",
+      "hybrid computing",
+      "high bandwidth memory (hbm)",
+      "neural processing units (npus)"
+    ]
+  },
+  {
+    "cluster_label": "Optical and Photonic Interconnect Technologies",
+    "cluster_short_description": "This cluster encompasses technologies that use light for data transmission and processing, including optical interconnects, photonic interposers, silicon photonics, optical fibers, and optical computing. These innovations enable high-bandwidth, efficient communication and computation by leveraging photons instead of electrons, often integrated with silicon-based systems for applications in computing and telecommunications.",
+    "technologies": [
+      "advanced on chip interconnect",
+      "biophotonic",
+      "co packaged optic",
+      "die to die optical interconnect",
+      "hybrid copper bonding",
+      "local silicon interconnect bridge",
+      "microled photonic",
+      "optical circuit switching",
+      "optical fiber",
+      "optical computing",
+      "optogenetic",
+      "organic interposer",
+      "optical interconnect",
+      "optical neuromonitoring",
+      "photonic computing",
+      "photonic interposer",
+      "silicon photonic",
+      "thin film lithium niobate (tfln) modulator"
+    ]
+  },
+  {
+    "cluster_label": "AI and Machine Learning Models and Data",
+    "cluster_short_description": "This cluster focuses on artificial intelligence and machine learning, emphasizing models like neural networks, deep learning, and multimodal systems that learn from data. It includes aspects of data handling, such as datasets and data-centric approaches, and covers applications like inference and phishing detection, with a mention of foundational architectures.",
+    "technologies": [
+      "ai for protein design",
+      "ai generated phishing and malware technique",
+      "data centric ai",
+      "deep learning model",
+      "foundation model",
+      "multimodal model",
+      "neural network",
+      "robotic foundation models (rfms)",
+      "small/distilled/quantized model"
+    ]
+  },
+  {
+    "cluster_label": "Satellite and Orbital Systems for Earth Services",
+    "cluster_short_description": "This cluster encompasses technologies related to satellites and orbital systems that provide critical services for Earth, including communication, data transmission, and observation. It involves various satellite types like low Earth orbit and geostationary satellites, forming an integrated infrastructure for global connectivity and monitoring through space-based assets.",
+    "technologies": [
+      "5g from space",
+      "advanced in space refueling",
+      "direct to device satellite communication",
+      "direct to device satellite connectivity",
+      "drones (including delivery drones, underwater drones)",
+      "earth observation satellite",
+      "fpv (first person view) drone",
+      "high altitude platform system",
+      "hypersonic spaceplane",
+      "hypersonic flight",
+      "in space transportation",
+      "low earth orbit (leo) satellite",
+      "lunar surface vehicle",
+      "manned spacecraft (e.g., orion)",
+      "non terrestrial networks (ntns)",
+      "optical ground antenna",
+      "reusable rocket",
+      "satellite based communication",
+      "satellite collision avoidance system",
+      "satellite constellation",
+      "satellite infrastructure",
+      "small satellites (including cubesats)",
+      "space based data service",
+      "space based data center",
+      "space traffic management (stm)",
+      "urban air mobility / electric vertical takeoff and landing aircraft (evtol)"
+    ]
+  },
+  {
+    "cluster_label": "Quantum-Resistant Cryptography and Security",
+    "cluster_short_description": "This cluster focuses on cryptographic methods designed to protect data against threats from both classical and quantum computers, including quantum-resistant algorithms, post-quantum cryptography, and public key systems, emphasizing encryption, decryption, and defense against attacks to ensure privacy and security in the quantum era.",
+    "technologies": [
+      "confidential computing",
+      "homomorphic encryption",
+      "post quantum cryptography",
+      "privacy enhancing tech",
+      "public key cryptography  (asymmetric cryptography)",
+      "quantum communication",
+      "quantum key distribution (qkd)",
+      "quantum resistant algorithm",
+      "quantum resistant cryptography",
+      "quantum secured algorithm",
+      "symmetric cryptography",
+      "zero knowledge proof"
+    ]
+  },
+  {
+    "cluster_label": "Immersive and Virtual Reality Technologies",
+    "cluster_short_description": "This cluster encompasses technologies that create or enhance digital experiences by blending virtual and physical environments. It includes virtual reality (VR) for fully immersive simulations, augmented reality (AR) for overlaying digital information onto the real world, and mixed reality (MR) for interactive coexistence of real and virtual elements. Key features involve head-mounted displays, eye tracking, high-resolution visuals (e.g., 2160p), and multisensory feedback systems to enable interactive and immersive user experiences in areas like gaming, training, and visualization.",
+    "technologies": [
+      "augmented reality (ar)",
+      "immersive technologies & wearable",
+      "immersive reality technologie",
+      "immersive platform",
+      "location based augmented reality",
+      "mixed reality",
+      "virtual reality (vr)"
+    ]
+  },
+  {
+    "cluster_label": "Biotech Innovations in RNA and Methane Reduction",
+    "cluster_short_description": "This cluster encompasses technologies related to RNA-based mechanisms, including mRNA and RNA interference for genetic regulation and therapeutic applications, as well as solutions for reducing methane emissions from livestock through biological interventions. It highlights advancements in biotechnology for health and environmental sustainability.",
+    "technologies": [
+      "cattle burping remedie",
+      "long acting hiv prevention med",
+      "mrna (messenger rna)",
+      "mrna lipid nanoparticle technology",
+      "rnai (rna interference)"
+    ]
+  },
+  {
+    "cluster_label": "Advanced Functional Materials and Modeling",
+    "cluster_short_description": "This cluster focuses on engineered materials, including smart materials, metamaterials, and biomaterials, designed to exhibit unique properties for energy optimization, environmental responsiveness, and other applications. It involves computational modeling and optimization techniques to enhance material performance and efficiency.",
+    "technologies": [
+      "adaptative materials modelling",
+      "biomaterials (eco-friendly, e.g., collagen scaffolds)",
+      "energy optimization material",
+      "metamaterial",
+      "self assembling molecule",
+      "smart material"
+    ]
+  },
+  {
+    "cluster_label": "Data-Driven Process Analysis and Discovery",
+    "cluster_short_description": "This cluster focuses on analytical techniques and tools for extracting insights from data, particularly in business and legal contexts. It includes processes like data mining for pattern recognition, process mining for operational insights from event logs, and eDiscovery for legal information retrieval, emphasizing systematic analysis of records and support for decision-making.",
+    "technologies": [
+      "data mining",
+      "e discovery",
+      "process mining tool"
+    ]
+  },
+  {
+    "cluster_label": "Spatial Intelligence and Environmental Monitoring",
+    "cluster_short_description": "This cluster focuses on technologies that analyze spatial data, such as geographic and spectral information, for applications in precision agriculture, environmental monitoring, and earth observation. It includes spatial computing, remote sensing, and AI-driven systems to interpret and manage data with spatial relationships, enhancing decision-making in areas like crop management and geographic analysis.",
+    "technologies": [
+      "ai driven earth observation system",
+      "collaborative sensing",
+      "crop intelligence",
+      "generative engine optimization (geo)",
+      "location risk intelligence",
+      "remote sensing",
+      "hyperspectral imaging",
+      "spatial intelligence",
+      "spatial computing",
+      "spatial processing"
+    ]
+  },
+  {
+    "cluster_label": "Digital Financial and Identity Systems",
+    "cluster_short_description": "This cluster encompasses technologies related to digital and electronic systems for financial transactions, payments, and identity management. It includes digital assets, wallets, central bank digital currencies, virtual credit cards, and digital identity frameworks, all leveraging cryptographic security for secure monetary and credential handling in electronic environments.",
+    "technologies": [
+      "central bank digital currencies  (cbdcs)",
+      "content credentials (c2pa standard)",
+      "digital asset",
+      "digital identity (including self-sovereign identity, passwordless, converged identity)",
+      "digital infrastructure (sql/nosql databases, compute/storage networks)",
+      "digital therapeutic",
+      "digital wallet",
+      "electronic health records (ehrs)",
+      "virtual credit cards (for ai agent)"
+    ]
+  },
+  {
+    "cluster_label": "IoT and Advanced Wireless Connectivity Systems",
+    "cluster_short_description": "This cluster focuses on technologies enabling interconnected devices and systems through high-performance wireless networks, including IoT, 5G/6G, and interoperability solutions, to facilitate seamless data communication and connectivity in applications like automotive IoT and distributed networks.",
+    "technologies": [
+      "5g",
+      "5g advanced (5.5g)",
+      "5g vehicle to everything (v2x) communication",
+      "advanced connectivity",
+      "5g and 6g cellular system",
+      "application layer",
+      "automotive iot",
+      "backscatter communication",
+      "data integration",
+      "health informatic",
+      "industrial internet of things (iiot)",
+      "integration/tooling layer",
+      "internet of robotic things (iort)",
+      "internet of things (iot)",
+      "internet of underwater things (iout)",
+      "interoperability tech",
+      "low-power wide-area networks (e.g., narrowband iot, lora, sigfox)",
+      "private wireless networks (including private 5g)",
+      "telehealth"
+    ]
+  },
+  {
+    "cluster_label": "Quantum Computing Technologies and Services",
+    "cluster_short_description": "This cluster encompasses technologies and services related to quantum computing, including hardware like quantum processing units, software for quantum control and qubit virtualization, and cloud-based access models such as Quantum as a Service. It focuses on leveraging quantum mechanical phenomena for advanced computational tasks, addressing challenges like error correction and logical qubit management to enable reliable quantum information processing.",
+    "technologies": [
+      "hybrid quantum classical computing system",
+      "quantum as a service (qaas)",
+      "quantum chemistry",
+      "quantum computing",
+      "quantum control software",
+      "quantum error correction",
+      "quantum enhanced measurement",
+      "quantum networking",
+      "quantum processing units (qpus)",
+      "quantum sensor",
+      "qubit virtualization system",
+      "topological qubit",
+      "virtual cell"
+    ]
+  },
+  {
+    "cluster_label": "Single-Cell and Multi-Omic Technologies in Cancer Research",
+    "cluster_short_description": "This cluster focuses on advanced technologies for high-resolution analysis at the single-cell level and integration of multi-omic data, primarily applied in cancer research and medicine. It includes methods like single-cell genomic sequencing, proteomics, and liquid biopsies for early cancer detection, enabling detailed profiling of cellular heterogeneity and molecular characteristics to improve diagnostics and therapeutic insights.",
+    "technologies": [
+      "liquid biopsy",
+      "multi cancer screening (liquid biopsy)",
+      "multiomic",
+      "omics (single-cell sequencing, proteomics, multiomics)",
+      "personalized/precision medicine",
+      "pharmacogenomic",
+      "single cell analysis",
+      "single cell genomic"
+    ]
+  },
+  {
+    "cluster_label": "AI-Powered Visual Content Generation and Analysis",
+    "cluster_short_description": "This cluster encompasses technologies focused on creating, interpreting, and enhancing visual media using artificial intelligence. It includes AI vision systems for analyzing images and videos, text-to-image generation for producing visuals from descriptions, AR/VR processing for immersive experiences, and the creation of AI-generated avatars. Key aspects involve handling resolutions, pixels, and representations to automate and improve visual content in various applications.",
+    "technologies": [
+      "3d modeling and generative 3d environments (e.g., ai-generated textures, procedural content generation)",
+      "ai enabled video surveillance",
+      "ai enhanced text to image generation",
+      "ai enhanced text to video generation",
+      "ai generated avatar",
+      "ai-powered rendering, tracking, and processing for ar/vr",
+      "ai vision software",
+      "computer vision",
+      "digital avatars (e.g., apple persona)",
+      "generative watermarking",
+      "imaging and radiomic",
+      "multimodal data integration (text, images, video)"
+    ]
+  },
+  {
+    "cluster_label": "Additive Manufacturing and 3D Printing Technologies",
+    "cluster_short_description": "This cluster encompasses technologies that create physical objects through layer-by-layer material deposition, including 3D printing, bioprinting, and 4D printing, enabling the fabrication of complex structures from digital models, with applications ranging from manufacturing to biomedical engineering.",
+    "technologies": [
+      "3d printing",
+      "4d printing",
+      "3d bioprinting and tissue engineering",
+      "additive manufacturing",
+      "advanced semiconductor manufacturing",
+      "bioprinting",
+      "laser additive manufacturing",
+      "nanomedicine",
+      "printed electronic"
+    ]
+  },
+  {
+    "cluster_label": "Kubernetes-based Container Orchestration and ML Platform",
+    "cluster_short_description": "This cluster focuses on technologies for managing and scaling containerized applications, particularly using Kubernetes for orchestration. It includes tools like Kubeflow for machine learning workflows, emphasizing automation, deployment, and cloud-native solutions such as serverless computing to abstract infrastructure management.",
+    "technologies": [
+      "containers and kubernete",
+      "kubernete",
+      "kubeflow",
+      "serverless computing"
+    ]
+  },
+  {
+    "cluster_label": "Advanced Electrochemical Energy Storage Technologies",
+    "cluster_short_description": "This cluster encompasses innovative electrochemical energy storage systems, including various battery types like solid-state, calcium-based, and silicon anode batteries, as well as supercapacitors. These technologies focus on enhancing energy density, cycle life, and grid integration for applications in electric power, energy storage, and sustainable energy management.",
+    "technologies": [
+      "advanced battery management system",
+      "battery recycling",
+      "battery energy storage systems (including long duration and thermal storage)",
+      "bidirectional charging system",
+      "calcium based batterie",
+      "electric vehicle",
+      "electrobiosynthesis",
+      "long duration energy storage",
+      "niobium anode",
+      "redox flow batterie",
+      "silicon anode batteries",
+      "silicon nanowire based lithium  battery anode",
+      "solid state batterie",
+      "structural battery composite",
+      "supercapacitors / ultracapacitor"
+    ]
+  },
+  {
+    "cluster_label": "Laser and Optical Technologies",
+    "cluster_short_description": "This cluster encompasses technologies utilizing lasers and coherent light, focusing on applications in communication, weaponry, medical imaging, and scientific research. It involves precise control of wavelength, optical properties, and ultrafast pulses for quantum and electron dynamics studies, with key terms including laser, beam, and nm.",
+    "technologies": [
+      "attosecond pulse laser",
+      "distributed gain laser architecture",
+      "laser based medical imaging",
+      "laser communication",
+      "laser weapon",
+      "phased array antenna",
+      "quantum dot laser",
+      "raman spectroscopy",
+      "solid state lidar",
+      "titanium sapphire laser",
+      "x ray free electron lasers (xfels)"
+    ]
+  },
+  {
+    "cluster_label": "Advanced Thermal Management and Cooling Systems",
+    "cluster_short_description": "This cluster focuses on technologies for efficient heat dissipation and thermal control in high-power environments like data centers, using methods such as liquid cooling, immersion cooling, and electrified heat solutions to manage energy consumption and improve cooling efficiency beyond traditional air-based systems.",
+    "technologies": [
+      "battery  and liquid cooling systems for data center",
+      "direct to chip liquid cooling",
+      "electrified heat solutions (e.g., rotodynamic heater)",
+      "heat pump",
+      "immersion cooling",
+      "in row cooling",
+      "liquid cooling",
+      "ocean thermal energy conversion (otec)"
+    ]
+  },
+  {
+    "cluster_label": "Business Process Automation and AI Governance",
+    "cluster_short_description": "This cluster focuses on technologies that automate and optimize business processes, including robotic process automation (RPA), business process automation (BPA), and AI governance platforms. It involves software systems that streamline operations, ensure compliance, and enhance efficiency through automated workflows, code development, and integration with platforms like ERP systems.",
+    "technologies": [
+      "ai governance platform",
+      "algorithmic management",
+      "ai toolchain operator",
+      "automated firmware verification tool",
+      "automated workflow capabilities (e.g., speech to text)",
+      "automation for governance, risk, and compliance (grc)",
+      "business process automation (bpa)",
+      "coding automation tool",
+      "devops metrics (dora)",
+      "erp (enterprise resource planning) system",
+      "low code application platforms (lcaps)",
+      "programming frameworks (e.g., langchain, autogen, crewai)",
+      "robotic process automation (rpa)",
+      "robotics as a service (raas)",
+      "straight through processing (stp)",
+      "superapp"
+    ]
+  },
+  {
+    "cluster_label": "Sustainable Fuels and Decarbonization Technologies",
+    "cluster_short_description": "This cluster focuses on renewable and low-carbon energy sources, including sustainable fuels like e-fuels, biofuels, and green methanol, aimed at reducing emissions in sectors such as aviation, shipping, and industrial production. It encompasses technologies for producing and utilizing biomass, biogas, and cleaner alternatives to traditional fossil fuels to support decarbonization and circular economy principles.",
+    "technologies": [
+      "biofuel",
+      "biogas and biomass",
+      "circular economy manufacturing",
+      "cleaner jet fuel",
+      "green methanol shipping, circular supply chain",
+      "refueling station",
+      "sustainable concrete technologie",
+      "sustainable fuels (e-fuels, advanced biofuels, synthetic fuels)"
+    ]
+  },
+  {
+    "cluster_label": "AI-Powered Autonomous Cybersecurity Systems",
+    "cluster_short_description": "This cluster encompasses technologies that leverage artificial intelligence and automation to provide continuous, self-driven monitoring, detection, and protection against cyber threats. These systems operate autonomously with minimal human intervention, enhancing security through real-time threat identification and response across digital infrastructures, including AI-specific defenses.",
+    "technologies": [
+      "ai driven threat detection and cybersecurity tool",
+      "ai runtime protection",
+      "automated observability tool",
+      "autonomous biochemical sensing",
+      "biometric authentication",
+      "biomimetic cyberdefense",
+      "cybersecurity mesh framework (csmf)",
+      "digital immune system",
+      "immutable backup and self healing network",
+      "non human identity",
+      "observability tools (e.g., langsmith)",
+      "parametric insurance",
+      "privacy engineering",
+      "robotics cybersecurity",
+      "security monitoring automation",
+      "self driven ai cybersecurity algorithm",
+      "trusted execution environments (tees)"
+    ]
+  },
+  {
+    "cluster_label": "Autonomous AI Agents and Systems",
+    "cluster_short_description": "This cluster encompasses technologies related to autonomous artificial intelligence agents and systems that perceive environments, make decisions, and act independently to achieve goals. It includes AI agents for various applications, such as personal assistance and cybersecurity, as well as concepts like artificial general intelligence, highlighting capabilities in learning, intelligence, and autonomous operation.",
+    "technologies": [
+      "adaptive ai",
+      "agent concierge system",
+      "ai augmented metadata management",
+      "ai agent",
+      "ai copilot",
+      "ai based anomaly detection system",
+      "ai gateway",
+      "ai powered command & control system",
+      "ai powered fleet management/logistic",
+      "ai ran (ai enabled radio access network)",
+      "ai search engine",
+      "artificial general intelligence (agi)",
+      "artificial superintelligence (asi)",
+      "autonomous agent",
+      "digital coworker",
+      "generative ai",
+      "multi agent autonomy",
+      "multi agent system",
+      "personal ai",
+      "personal algorithm",
+      "predictive ai",
+      "security operations center ai agent",
+      "semantic ai"
+    ]
+  },
+  {
+    "cluster_label": "Machine Learning and Reinforcement Learning Techniques",
+    "cluster_short_description": "This cluster focuses on machine learning methodologies, particularly reinforcement learning and its deep variants, where agents learn through interaction and rewards. It includes techniques like supervised fine-tuning for adapting pre-trained models to specific tasks and continuous learning for incremental knowledge acquisition from data streams, emphasizing automated improvement and decision-making in AI systems.",
+    "technologies": [
+      "continuous learning",
+      "deep reinforcement learning",
+      "hyperparameter tuning",
+      "machine learning",
+      "reinforcement learning",
+      "reinforcement learning with human feedback (rlhf)",
+      "retrieval augmented generation (rag)",
+      "simulation based learning",
+      "supervised fine tuning (sft)"
+    ]
+  },
+  {
+    "cluster_label": "Digital Twin and Predictive Simulation Ecosystem",
+    "cluster_short_description": "This cluster focuses on digital twins, which are virtual models that mirror physical objects or systems through real-time data synchronization. It includes technologies for predictive modeling, simulation, and integration within an ecosystem, enabling accurate representations and insights for various applications.",
+    "technologies": [
+      "digital twin",
+      "digital twin ecosystem"
+    ]
+  },
+  {
+    "cluster_label": "Decentralized Ledger and Cryptocurrency Technologies",
+    "cluster_short_description": "This cluster encompasses technologies centered on decentralized, cryptographic systems for secure digital transactions and asset management. It includes blockchain as a distributed ledger, cryptocurrencies for peer-to-peer exchange, and DeFi applications like decentralized exchanges, all relying on consensus mechanisms to operate without central authorities.",
+    "technologies": [
+      "blockchain",
+      "blockchain and distributed ledger",
+      "cryptocurrency",
+      "crypto wallet",
+      "decentralized applications (dapps)",
+      "decentralized identity system",
+      "decentralized finance (defi)",
+      "decentralized exchanges (dexs)",
+      "empiric ai",
+      "liquid staking",
+      "smart contract",
+      "stablecoin",
+      "tokenization (including stablecoins, nfts, tokenized real-world/financial assets)",
+      "vector database"
+    ]
+  },
+  {
+    "cluster_label": "Synthetic DNA and Genetic Engineering Technologies",
+    "cluster_short_description": "This cluster encompasses technologies focused on the artificial synthesis, sequencing, and engineering of DNA and genetic materials, including synthetic chromosomes and RNA, to enable precise control, production, and modification of biological systems for applications in synthetic biology and beyond.",
+    "technologies": [
+      "dna sequencing",
+      "dna synthesi",
+      "gene editing",
+      "nanotechnology",
+      "nanozyme",
+      "synthetic chromosome",
+      "synthetic biology",
+      "synthetic data",
+      "synthetic rna"
+    ]
+  },
+  {
+    "cluster_label": "Neural Interfaces and Brain-Inspired Computing",
+    "cluster_short_description": "This cluster encompasses technologies that interface with the brain and neural systems, including brain-computer interfaces (BCIs) for bidirectional communication, bioengineered neurointerfaces, and neuromorphic computing that mimics biological neural networks. It focuses on processing neural signals, stimulation, memory, and integrating biological and electronic systems for applications in medicine, computing, and human enhancement.",
+    "technologies": [
+      "bidirectional brain machine interfaces (bbmis)",
+      "bio inspired processing",
+      "bioengineered neurointerface",
+      "biological interface",
+      "brain computer interface",
+      "brainвЂ“computer interfaces (bci)",
+      "glp 1s for neurodegenerative disease",
+      "in memory computing",
+      "long term memory",
+      "neuromorphic architecture",
+      "neuromorphic computing",
+      "neurotechnology"
+    ]
+  },
+  {
+    "cluster_label": "Space-Based Manufacturing in Microgravity",
+    "cluster_short_description": "This cluster focuses on manufacturing and production processes conducted in space, particularly in Earth's orbit, leveraging microgravity and vacuum conditions to fabricate materials, components, and structures that are difficult or impossible to produce under terrestrial gravity. It includes technologies like in-orbit and in-space manufacturing, enabling advancements in materials science and space infrastructure.",
+    "technologies": [
+      "in orbit manufacturing",
+      "in space manufacturing",
+      "zero gravity manufacturing"
+    ]
+  },
+  {
+    "cluster_label": "AI-Driven Discovery in Materials and Pharmaceuticals",
+    "cluster_short_description": "This cluster focuses on the application of artificial intelligence and machine learning for computational discovery and prediction in materials science, chemistry, and pharmaceutical research. It includes methodologies for screening and identifying novel materials, drugs, and resources, accelerating innovation in fields like material design, drug development, and mineral exploration.",
+    "technologies": [
+      "ai driven mineral/resource exploration (e.g., kobold metals)",
+      "ai for drug discovery",
+      "ai for material discovery",
+      "ai powered drug discovery (e.g., protein engineering foundry)",
+      "machine learning for materials discovery",
+      "tinyml"
+    ]
+  },
+  {
+    "cluster_label": "Language and Multimodal AI Models",
+    "cluster_short_description": "This cluster encompasses various types of AI models, including large language models (LLMs), small language models, vision language models (VLMs), and large multimodal models (LMMs), which process and generate text, images, audio, and other data through neural networks, focusing on natural language understanding, generation, and multimodal integration.",
+    "technologies": [
+      "biollm",
+      "large language models (llms)",
+      "large action models (lams)",
+      "large multimodal models (lmms)",
+      "llm (large language model)",
+      "natural language processing",
+      "personal large action model",
+      "small language model",
+      "speech to speech model",
+      "transformer model",
+      "vision language models (vlms)",
+      "vision language action (vla) model",
+      "xlstm"
+    ]
+  },
+  {
+    "cluster_label": "Green Hydrogen and Electrochemical Technologies",
+    "cluster_short_description": "This cluster focuses on technologies that use renewable electricity and electrochemical processes to produce hydrogen and other materials like ammonia and steel, aiming for zero or low carbon emissions. Key areas include green hydrogen production via electrolysis, hydrogen fuel cells for clean energy generation, green nitrogen fixation for sustainable ammonia, and green steel manufacturing to reduce greenhouse gases.",
+    "technologies": [
+      "green hydrogen",
+      "green steel",
+      "green nitrogen fixation",
+      "hydrogen fuel cell",
+      "hydrogen production (including electrolyzers)"
+    ]
+  }
+]
