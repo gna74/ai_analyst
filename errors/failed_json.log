@@ -1,0 +1,154 @@
+
+--- RAW CONTENT ---
+```json
+{
+  "tech_id": "laser weapon",
+  "name": "laser weapon",
+  "definition": "A laser weapon is a directed-energy weapon system that employs high-energy laser beams to damage or destroy targets. It operates by focusing coherent electromagnetic radiation onto a specific point, generating intense thermal effects. Unlike kinetic weapons, it delivers energy at the speed of light without physical projectiles.",
+  "method": "Laser weapons generate coherent light through stimulated emission in a gain medium, typically using chemical, solid-state, or fiber laser technologies. The beam is then amplified and directed through optical systems including mirrors and lenses to focus energy onto the target. Target acquisition and tracking systems maintain beam alignment on moving objects. The concentrated thermal energy causes rapid heating, leading to material ablation, structural failure, or system disruption depending on the target composition and laser parameters.",
+  "technical_features": [
+    "Speed-of-light engagement capability",
+    "Coherent electromagnetic energy projection",
+    "Precision targeting with beam steering",
+    "Scalable energy output from kW to MW",
+    "Atmospheric propagation considerations",
+    "Thermal damage mechanism",
+    "Limited magazine depth constraints"
+  ],
+  "applications": [
+    "Military anti-drone and missile defense systems",
+    "Naval vessel protection against asymmetric threats",
+    "Space domain awareness and satellite defense",
+    "Critical infrastructure protection"
+  ],
+  "functional_role": "Provides directed energy engagement capability for target neutralization through precise thermal effects, enabling rapid defense against aerial and ballistic threats.",
+  "related_technologies": [
+    "Directed Energy Weapons",
+    "High Energy Laser",
+    "Beam Control System",
+    "Phased Array Radar",
+    "Electromagnetic Warfare"
+  ],
+  "evidence": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-21-380",
+      "source_title": "DOD Directed Energy Weapons: Background and Issues for Congress"
+    },
+    {
+      "source_url": "https://www.rand.org/pubs/research_reports/RR4376.html",
+      "source_title": "Laser Weapons: Ready for the Battlefield?"
+    },
+    {
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S1350449520304967",
+      "source_title": "High-energy laser weapons: Technology overview"
+    },
+    {
+      "source_url": "https://www.defense.gov/News/Feature-Stories/Story/Article/1773892/laser-weapons-new-realities-persistent-challenges/",
+      "source_title": "Laser Weapons: New Realities, Persistent Challenges"
+    }
+  ],
+  "last_updated": "2024-12-19T18:30:45Z",
+  " "embedding_snippet": "TYPE: Hardware; GENUS: Directed Energy Weapon System; DIFFERENTIA: coherent light projection, speed-of-light engagement, thermal damage mechanism, precision energy delivery; ROLE: provides target neutralization through focused thermal effects; KEY_FACTORS: 10-150 kW power output, 1-5 km effective range, 0.1-1.0 mrad beam divergence, 2-10 second engagement time, 85-95% beam quality factor; INPUTS: electrical power, cooling systems, target tracking data, atmospheric condition data, optical components; APPLICATIONS: missile defense, anti-drone warfare, naval protection; NOT_CONFUSED_WITH: microwave weapons, kinetic impact systems, electromagnetic pulse devices"
+}
+```
+--- EXTRACTED ---
+{
+  "tech_id": "laser weapon",
+  "name": "laser weapon",
+  "definition": "A laser weapon is a directed-energy weapon system that employs high-energy laser beams to damage or destroy targets. It operates by focusing coherent electromagnetic radiation onto a specific point, generating intense thermal effects. Unlike kinetic weapons, it delivers energy at the speed of light without physical projectiles.",
+  "method": "Laser weapons generate coherent light through stimulated emission in a gain medium, typically using chemical, solid-state, or fiber laser technologies. The beam is then amplified and directed through optical systems including mirrors and lenses to focus energy onto the target. Target acquisition and tracking systems maintain beam alignment on moving objects. The concentrated thermal energy causes rapid heating, leading to material ablation, structural failure, or system disruption depending on the target composition and laser parameters.",
+  "technical_features": [
+    "Speed-of-light engagement capability",
+    "Coherent electromagnetic energy projection",
+    "Precision targeting with beam steering",
+    "Scalable energy output from kW to MW",
+    "Atmospheric propagation considerations",
+    "Thermal damage mechanism",
+    "Limited magazine depth constraints"
+  ],
+  "applications": [
+    "Military anti-drone and missile defense systems",
+    "Naval vessel protection against asymmetric threats",
+    "Space domain awareness and satellite defense",
+    "Critical infrastructure protection"
+  ],
+  "functional_role": "Provides directed energy engagement capability for target neutralization through precise thermal effects, enabling rapid defense against aerial and ballistic threats.",
+  "related_technologies": [
+    "Directed Energy Weapons",
+    "High Energy Laser",
+    "Beam Control System",
+    "Phased Array Radar",
+    "Electromagnetic Warfare"
+  ],
+  "evidence": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-21-380",
+      "source_title": "DOD Directed Energy Weapons: Background and Issues for Congress"
+    },
+    {
+      "source_url": "https://www.rand.org/pubs/research_reports/RR4376.html",
+      "source_title": "Laser Weapons: Ready for the Battlefield?"
+    },
+    {
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S1350449520304967",
+      "source_title": "High-energy laser weapons: Technology overview"
+    },
+    {
+      "source_url": "https://www.defense.gov/News/Feature-Stories/Story/Article/1773892/laser-weapons-new-realities-persistent-challenges/",
+      "source_title": "Laser Weapons: New Realities, Persistent Challenges"
+    }
+  ],
+  "last_updated": "2024-12-19T18:30:45Z",
+  " "embedding_snippet": "TYPE: Hardware; GENUS: Directed Energy Weapon System; DIFFERENTIA: coherent light projection, speed-of-light engagement, thermal damage mechanism, precision energy delivery; ROLE: provides target neutralization through focused thermal effects; KEY_FACTORS: 10-150 kW power output, 1-5 km effective range, 0.1-1.0 mrad beam divergence, 2-10 second engagement time, 85-95% beam quality factor; INPUTS: electrical power, cooling systems, target tracking data, atmospheric condition data, optical components; APPLICATIONS: missile defense, anti-drone warfare, naval protection; NOT_CONFUSED_WITH: microwave weapons, kinetic impact systems, electromagnetic pulse devices"
+}
+--- CLEANED ---
+{
+  "tech_id": "laser weapon",
+  "name": "laser weapon",
+  "definition": "A laser weapon is a directed-energy weapon system that employs high-energy laser beams to damage or destroy targets. It operates by focusing coherent electromagnetic radiation onto a specific point, generating intense thermal effects. Unlike kinetic weapons, it delivers energy at the speed of light without physical projectiles.",
+  "method": "Laser weapons generate coherent light through stimulated emission in a gain medium, typically using chemical, solid-state, or fiber laser technologies. The beam is then amplified and directed through optical systems including mirrors and lenses to focus energy onto the target. Target acquisition and tracking systems maintain beam alignment on moving objects. The concentrated thermal energy causes rapid heating, leading to material ablation, structural failure, or system disruption depending on the target composition and laser parameters.",
+  "technical_features": [
+    "Speed-of-light engagement capability",
+    "Coherent electromagnetic energy projection",
+    "Precision targeting with beam steering",
+    "Scalable energy output from kW to MW",
+    "Atmospheric propagation considerations",
+    "Thermal damage mechanism",
+    "Limited magazine depth constraints"
+  ],
+  "applications": [
+    "Military anti-drone and missile defense systems",
+    "Naval vessel protection against asymmetric threats",
+    "Space domain awareness and satellite defense",
+    "Critical infrastructure protection"
+  ],
+  "functional_role": "Provides directed energy engagement capability for target neutralization through precise thermal effects, enabling rapid defense against aerial and ballistic threats.",
+  "related_technologies": [
+    "Directed Energy Weapons",
+    "High Energy Laser",
+    "Beam Control System",
+    "Phased Array Radar",
+    "Electromagnetic Warfare"
+  ],
+  "evidence": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-21-380",
+      "source_title": "DOD Directed Energy Weapons: Background and Issues for Congress"
+    },
+    {
+      "source_url": "https://www.rand.org/pubs/research_reports/RR4376.html",
+      "source_title": "Laser Weapons: Ready for the Battlefield?"
+    },
+    {
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S1350449520304967",
+      "source_title": "High-energy laser weapons: Technology overview"
+    },
+    {
+      "source_url": "https://www.defense.gov/News/Feature-Stories/Story/Article/1773892/laser-weapons-new-realities-persistent-challenges/",
+      "source_title": "Laser Weapons: New Realities, Persistent Challenges"
+    }
+  ],
+  "last_updated": "2024-12-19T18:30:45Z",
+  " "embedding_snippet": "TYPE: Hardware; GENUS: Directed Energy Weapon System; DIFFERENTIA: coherent light projection, speed-of-light engagement, thermal damage mechanism, precision energy delivery; ROLE: provides target neutralization through focused thermal effects; KEY_FACTORS: 10-150 kW power output, 1-5 km effective range, 0.1-1.0 mrad beam divergence, 2-10 second engagement time, 85-95% beam quality factor; INPUTS: electrical power, cooling systems, target tracking data, atmospheric condition data, optical components; APPLICATIONS: missile defense, anti-drone warfare, naval protection; NOT_CONFUSED_WITH: microwave weapons, kinetic impact systems, electromagnetic pulse devices"
+}
+--- ERROR: Expecting ':' delimiter: line 48 column 6 (char 2690)

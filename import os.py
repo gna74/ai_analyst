@@ -41,8 +41,8 @@ DASHSCOPE_MODEL   = "text-embedding-v3"
 
 # Параметры производительности
 CONCURRENCY   = 12    # параллельных генераций карточек
-MAX_TOKENS    = 900   # немного ужали, чтобы ускорить
-BATCH_SIZE_EMB = 48   # размер батча для эмбеддингов (32–64 обычно ок)
+MAX_TOKENS    = 1400   # немного ужали, чтобы ускорить
+BATCH_SIZE_EMB = 10   # Платформа DashScope в совместимом режиме разрешает не более 10 текстов на запрос
 
 # Тайм-ауты для aiohttp
 AIOHTTP_TIMEOUT = aiohttp.ClientTimeout(
@@ -69,7 +69,8 @@ session.mount("http://", adapter)
 # Schema & Utilities
 # =========================
 
-# JSON Schema (сохранено из вашей версии)
+# JSON Schema для валидации карточек
+
 tech_card_schema = {
     "type": "object",
     "properties": {
@@ -77,14 +78,32 @@ tech_card_schema = {
         "name": {"type": "string"},
         "definition": {"type": "string"},
         "method": {"type": "string"},
+
+        # 5–7 пунктов
         "technical_features": {
             "type": "array",
-            "items": {"type": "string"}
+            "items": {"type": "string"},
+            "minItems": 5,
+            "maxItems": 7
         },
+
+        # 3–4 пункта
         "applications": {
             "type": "array",
-            "items": {"type": "string"}
+            "items": {"type": "string"},
+            "minItems": 3,
+            "maxItems": 4
         },
+
+        # Новые поля
+        "functional_role": {"type": "string"},
+        "related_technologies": {
+            "type": "array",
+            "items": {"type": "string"},
+            "minItems": 3,
+            "maxItems": 5
+        },
+
         "evidence": {
             "type": "array",
             "items": {
@@ -94,15 +113,141 @@ tech_card_schema = {
                     "source_title": {"type": "string"}
                 },
                 "required": ["source_url", "source_title"]
-            }
+            },
+            "minItems": 3,
+            "maxItems": 5
         },
-        "last_updated": {"type": "string", "format": "date-time"}
+
+        "last_updated": {"type": "string", "format": "date-time"},
+
+        # embedding_snippet обязателен
+        "embedding_snippet": {"type": "string"}
     },
     "required": [
-        "tech_id", "name", "definition", "method",
-        "technical_features", "applications", "evidence", "last_updated"
-    ]
+        "tech_id", "name",
+        "definition", "method",
+        "technical_features", "applications",
+        "functional_role", "related_technologies",
+        "evidence", "last_updated",
+        "embedding_snippet"
+    ],
+    "additionalProperties": False
 }
+
+import re
+
+_EMB_MARKER_RE = re.compile(
+    r'^TYPE:\s*.+?;\s*GENUS:\s*.+?;\s*DIFFERENTIA:\s*.+?;\s*ROLE:\s*.+?;'
+    r'\s*KEY_FACTORS:\s*.+?;\s*INPUTS:\s*.+?;\s*APPLICATIONS:\s*.+?;'
+    r'\s*NOT_CONFUSED_WITH:\s*.+?$',
+    flags=re.DOTALL
+)
+
+def _is_valid_embedding_snippet(s: str) -> bool:
+    if not isinstance(s, str):
+        return False
+    s = s.strip()
+    # Никаких переводов строк и строгое соответствие маркерам/порядку:
+    return ("\n" not in s) and bool(_EMB_MARKER_RE.match(s))
+
+def _compose_embedding_snippet(card: dict) -> str:
+    """Безопасная сборка валидного по формату embedding_snippet при сбое генерации LLM."""
+    name = (card.get("name") or "").lower()
+    feats = [str(x) for x in (card.get("technical_features") or [])]
+    apps = [str(x) for x in (card.get("applications") or [])]
+    role = str(card.get("functional_role") or "data limited").strip()
+
+    txt = " ".join([str(card.get("definition") or ""), str(card.get("method") or ""), " ".join(feats)])
+    low = (name + " " + txt).lower()
+
+    # TYPE эвристика
+    if any(k in low for k in ["chip", "sensor", "battery", "reactor", "device", "accelerator", "module", "laser", "cooling", "robot", "antenna", "photonic", "optical", "asic", "fpga", "gpu"]):
+        typ = "Hardware"
+    elif any(k in low for k in ["architecture", "framework", "protocol", "interconnect", "system", "platform", "network"]):
+        typ = "Architecture"
+    elif any(k in low for k in ["method", "algorithm", "training", "learning", "optimization", "mapping", "inference"]):
+        typ = "Method"
+    else:
+        typ = "Paradigm"
+
+    # GENUS (класс)
+    role_core = re.sub(r'^(provides|enables|improves|delivers|supports|facilitates)\s+', '', role, flags=re.I)
+    genus_map = {
+        "Hardware": f"hardware component for {role_core or 'data limited'}",
+        "Architecture": f"computing architecture for {role_core or 'data limited'}",
+        "Method": f"computational method for {role_core or 'data limited'}",
+        "Paradigm": f"design paradigm for {role_core or 'data limited'}"
+    }
+    genus = genus_map.get(typ, "data limited")
+
+    # DIFFERENTIA — 2–3 ключевых отличия из features
+    diffs = []
+    for f in feats:
+        clean = f.replace(";", ",").strip()
+        if clean:
+            diffs.append(clean)
+        if len(diffs) >= 3:
+            break
+    if not diffs:
+        diffs = ["data limited"]
+
+    # KEY_FACTORS — для Hardware пытаемся вытащить количественные, иначе механизмы
+    key_factors = []
+    num_pat = re.compile(r'\b\d+(\.\d+)?\s?(k|m|g)?(w|wh\/kg|wh|nm|°c|c|%|ms|s|tops|kt\/yr|gbps|mbps|ghz|mhz)\b', re.I)
+    if typ == "Hardware":
+        for f in feats:
+            # собираем первые количественные дискриминаторы
+            for m in num_pat.findall(f + " "):
+                if len(key_factors) < 5:
+                    # m — tuple из групп; берём исходный match через поиски
+                    mm = re.search(num_pat, f)
+                    if mm:
+                        key_factors.append(mm.group(0))
+                        break
+            if len(key_factors) >= 3:
+                break
+    if not key_factors:
+        # механизмы для методов/архитектур
+        cand = re.split(r'[.;•]\s*', str(card.get("method") or ""))
+        key_factors = [c.strip() for c in cand if c.strip()][:5]
+    if not key_factors:
+        key_factors = ["data limited"]
+
+    # INPUTS — грубые эвристики
+    inputs = []
+    if any(k in low for k in ["image", "vision", "camera", "lidar"]): inputs.append("images")
+    if any(k in low for k in ["text", "nlp", "document"]): inputs.append("text")
+    if any(k in low for k in ["sensor", "telemetry", "time series", "timeseries"]): inputs.append("time-series")
+    if any(k in low for k in ["material", "alloy", "catalyst", "wafer"]): inputs.append("materials")
+    if any(k in low for k in ["api", "interface", "bus", "protocol"]): inputs.append("interfaces/APIs")
+    if not inputs:
+        inputs = ["data limited"]
+
+    # APPLICATIONS — 2–3
+    appl = [a.replace(";", ",").strip() for a in apps if a.strip()][:3]
+    if not appl:
+        appl = ["data limited"]
+
+    # NOT_CONFUSED_WITH — берём из related_technologies или общее
+    related = [str(x).strip() for x in (card.get("related_technologies") or []) if str(x).strip()]
+    if len(related) >= 2:
+        not_conf = related[:3]
+    else:
+        not_conf = ["data limited"]
+
+    # Сборка одной строкой; маркеры — строго в заданном порядке, списки — через ', ' и маркеры через '; '
+    parts = [
+        "TYPE: " + ", ".join([typ]),
+        "GENUS: " + ", ".join([genus]),
+        "DIFFERENTIA: " + ", ".join(diffs),
+        "ROLE: " + ", ".join([role_core or "data limited"]),
+        "KEY_FACTORS: " + ", ".join(key_factors[:5]),
+        "INPUTS: " + ", ".join(inputs[:5]),
+        "APPLICATIONS: " + ", ".join(appl[:3]),
+        "NOT_CONFUSED_WITH: " + ", ".join(not_conf[:3]),
+    ]
+    return "; ".join(parts)
+
 
 def _infer_title_from_url(url: str) -> str | None:
     try:
@@ -142,30 +287,45 @@ def _normalize_evidence(card: dict) -> None:
         fixed.append({"source_url": url, "source_title": title[:120]})
     card["evidence"] = fixed
 
+# Построение промпта
+
 def build_prompt(tech_name: str) -> str:
     return (
-        "Return a JSON object with fields: "
-        "- tech_id (as provided), "
-        "- name (as provided), "
-        "- definition (2–4 sentences; English; clear genus–differentia), "
-        "- method (4–6 sentences on operation principles and stages; English), "
-        "- technical_features (exactly 5–7 concise bullets ≤15 words; English), "
-        "- applications (exactly 3–4 bullets with industry use cases; English), "
-        "- evidence (3–5 items; each item MUST have non-empty 'source_url' (http/https) "
-        "  and non-empty 'source_title' (page/article title)), "
-        "- last_updated (current date in ISO 8601 UTC), "
-        "- embedding_snippet (single paragraph, 250–300 tokens; English; structure: "
-        "  1) genus–differentia opening; "
-        "  2) 4–6 discriminators with numeric ranges and SI or computing metrics; "
-        "  3) 2–3 main applications; "
-        "  4) short 'Not to be confused with …'). "
-        "Rules: "
-        "- Language: English, neutral, no marketing; "
-        "- Use numbers with units (e.g., 10–50 TOPS, 5–20 nm, 600–1100 °C, ms, %, kt/yr); "
-        "- For 'evidence': only public web sources; valid http/https URLs; meaningful non-empty titles; "
-        "- If data is missing, write 'data limited' rather than inventing; "
-        "- Output strictly valid JSON with only the listed fields. "
-        f"Technology: {tech_name}."
+        "Return a JSON object with fields:\n"
+        "• tech_id (as provided)\n"
+        "• name (as provided)\n"
+        "• definition (2–4 sentences; English; clear genus–differentia)\n"
+        "• method (4–6 sentences on operation principles and stages; English)\n"
+        "• technical_features (exactly 5–7 concise bullets ≤15 words; English; list properties/attributes/mechanisms of THIS technology, not related technologies)\n"
+        "• applications (exactly 3–4 bullets with industry use cases; English)\n"
+        "• functional_role (1–2 sentences; English; describe the main functional role of this technology, e.g., \"provides energy storage\", \"enables heat dissipation\", \"improves radar accuracy\")\n"
+        "• related_technologies (list of 3–5 CANONICAL TECHNOLOGY NAMES used SPECIFICALLY for downstream embedding and clustering of technologies into trends; include sibling/parent/child technologies within the same functional trend; NAMES ONLY, no attributes/metrics/vendors/products; do NOT repeat synonyms of the current technology; 2–4 words per item; if data is missing, write \"data limited\")\n"
+        "• evidence (3–5 items; each item MUST have non-empty source_url (http/https) and non-empty source_title (page/article title))\n"
+        "• last_updated (current date in ISO 8601 UTC)\n"
+        "• embedding_snippet (single paragraph, 250–300 tokens; English; MUST include the following UPPERCASE key markers in this exact order, each followed by a concise, comma-separated list; markers separated by semicolons; no line breaks:\n"
+        "   TYPE: (Method | Hardware | Architecture | Paradigm)\n"
+        "   GENUS: (what class the technology belongs to)\n"
+        "   DIFFERENTIA: (what distinguishes it from close alternatives)\n"
+        "   ROLE: (main functional role in one concise clause)\n"
+        "   KEY_FACTORS: (for Hardware: 3–5 quantitative discriminators with SI/computing units, e.g., Wh/kg, nm, °C, %, ms; for Methods/Architectures: 3–5 core mechanisms, e.g., ontology mapping, secure aggregation, multi-modal fusion, graph traversal, retrieval fusion)\n"
+        "   INPUTS: (typical inputs/dependencies such as data types, sensors, materials, interfaces)\n"
+        "   APPLICATIONS: (2–3 primary domains/use cases)\n"
+        "   NOT_CONFUSED_WITH: (2–3 close but different technologies or approaches)\n"
+        ")\n"
+        "Rules:\n"
+        "• Language: English, neutral, no marketing\n"
+        "• Use numbers with units where applicable (e.g., 10–50 TOPS, 5–20 nm, 600–1100 °C, ms, %, kt/yr)\n"
+        "• For evidence: only public web sources; valid http/https URLs; meaningful non-empty titles\n"
+        "• For related_technologies:\n"
+        "   - Provide canonical names of related technologies for downstream embedding/clustering (trend grouping)\n"
+        "   - Exclude features, metrics, vendors, product names, and synonyms of the current technology\n"
+        "• Embedding snippet formatting:\n"
+        "   - Use EXACT marker names: TYPE, GENUS, DIFFERENTIA, ROLE, KEY_FACTORS, INPUTS, APPLICATIONS, NOT_CONFUSED_WITH\n"
+        "   - One paragraph, markers separated by “; ”, values within a marker separated by “, ”\n"
+        "   - Keep total length 250–300 tokens\n"
+        "• If data is missing, write “data limited” rather than inventing\n"
+        "• Output strictly valid JSON with only the listed fields\n\n"
+        f"Technology: {tech_name}"
     )
 
 import re
@@ -399,17 +559,17 @@ def main():
     print("[STAGE] Preparing embedding texts…")
     texts_to_embed = []
     tech_id_list = []
+
     for card in tech_cards:
-        embed_text = card.get('embedding_snippet', '')
-        if not embed_text:
-            definition = card.get('definition', '')
-            method = card.get('method', '')
-            features = " ".join(card.get('technical_features', []))
-            applications = " ".join(card.get('applications', []))
-            fallback = f"{definition} {method} {features} {applications}".split()
-            embed_text = " ".join(fallback[:220])  # ~180–220 words fallback
-        texts_to_embed.append(embed_text)
-        tech_id_list.append(card.get('tech_id'))
+        snippet = str(card.get("embedding_snippet") or "").strip()
+        if not _is_valid_embedding_snippet(snippet):
+            # Чиним: собираем корректный по формату snippet на основе имеющихся полей
+            snippet = _compose_embedding_snippet(card)
+            # при желании можно сохранить «починенную» версию в карточку
+            card["embedding_snippet"] = snippet
+
+        texts_to_embed.append(snippet)
+        tech_id_list.append(card.get("tech_id"))
 
     # Кэш эмбеддингов
     print(f"[STAGE] Embedding {len(texts_to_embed)} texts in batches…")

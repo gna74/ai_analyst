@@ -1,0 +1,3133 @@
+{
+  "k": 47,
+  "metrics": {
+    "silhouette_cosine": 0.12213442474603653,
+    "davies_bouldin": 2.4428668620221026,
+    "calinski_harabasz": 7.0573204810740116,
+    "cluster_size_stats": {
+      "min": 3.0,
+      "max": 23.0,
+      "mean": 10.702127659574469,
+      "std": 4.565899942133574,
+      "counts": [
+        4,
+        14,
+        11,
+        13,
+        9,
+        6,
+        11,
+        3,
+        7,
+        11,
+        13,
+        12,
+        18,
+        10,
+        4,
+        8,
+        13,
+        10,
+        7,
+        23,
+        14,
+        14,
+        7,
+        8,
+        11,
+        12,
+        15,
+        11,
+        4,
+        17,
+        15,
+        5,
+        9,
+        11,
+        7,
+        20,
+        12,
+        15,
+        9,
+        17,
+        15,
+        7,
+        9,
+        3,
+        3,
+        11,
+        15
+      ]
+    }
+  },
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "label": "Laser, Lasers, Femtosecond",
+      "cluster_short_description": "Cluster focusing on laser, lasers, femtosecond, optical; examples: attosecond pulse laser, titanium sapphire laser, x ray free electron lasers (xfels).",
+      "top_terms": [
+        "laser",
+        "lasers",
+        "femtosecond",
+        "optical",
+        "peak",
+        "pulses",
+        "solid state",
+        "ray"
+      ],
+      "group_id": 11,
+      "tech_items": [
+        {
+          "tech_id": "75",
+          "name": "attosecond pulse laser"
+        },
+        {
+          "tech_id": "189",
+          "name": "distributed gain laser architecture"
+        },
+        {
+          "tech_id": "479",
+          "name": "titanium sapphire laser"
+        },
+        {
+          "tech_id": "500",
+          "name": "x ray free electron lasers (xfels)"
+        }
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "label": "Business, Process, Automation",
+      "cluster_short_description": "Cluster focusing on business, process, automation, management; examples: business process automation (bpa), automated workflow capabilities (e.g., speech to text), robotic process automation (rpa).",
+      "top_terms": [
+        "business",
+        "process",
+        "automation",
+        "management",
+        "compliance",
+        "data",
+        "migration",
+        "workflow"
+      ],
+      "group_id": 0,
+      "tech_items": [
+        {
+          "tech_id": "65",
+          "name": "algorithmic management"
+        },
+        {
+          "tech_id": "77",
+          "name": "automated firmware verification tool"
+        },
+        {
+          "tech_id": "79",
+          "name": "automated workflow capabilities (e.g., speech to text)"
+        },
+        {
+          "tech_id": "80",
+          "name": "automation for governance, risk, and compliance (grc)"
+        },
+        {
+          "tech_id": "121",
+          "name": "business process automation (bpa)"
+        },
+        {
+          "tech_id": "161",
+          "name": "data integration"
+        },
+        {
+          "tech_id": "172",
+          "name": "devops metrics (dora)"
+        },
+        {
+          "tech_id": "193",
+          "name": "e discovery"
+        },
+        {
+          "tech_id": "211",
+          "name": "erp (enterprise resource planning) system"
+        },
+        {
+          "tech_id": "376",
+          "name": "process mining tool"
+        },
+        {
+          "tech_id": "409",
+          "name": "rip and replace migration"
+        },
+        {
+          "tech_id": "414",
+          "name": "robotic process automation (rpa)"
+        },
+        {
+          "tech_id": "415",
+          "name": "robotics as a service (raas)"
+        },
+        {
+          "tech_id": "461",
+          "name": "straight through processing (stp)"
+        }
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "label": "Orbital, Space, Km",
+      "cluster_short_description": "Cluster focusing on orbital, space, km, navigation; examples: reusable rocket, manned spacecraft (e.g., orion), small satellites (including cubesats).",
+      "top_terms": [
+        "orbital",
+        "space",
+        "km",
+        "navigation",
+        "transportation",
+        "aerial",
+        "vehicle",
+        "launch"
+      ],
+      "group_id": 7,
+      "tech_items": [
+        {
+          "tech_id": "192",
+          "name": "drones (including delivery drones, underwater drones)"
+        },
+        {
+          "tech_id": "194",
+          "name": "earth observation satellite"
+        },
+        {
+          "tech_id": "237",
+          "name": "high altitude platform system"
+        },
+        {
+          "tech_id": "252",
+          "name": "hypersonic spaceplane"
+        },
+        {
+          "tech_id": "263",
+          "name": "in space transportation"
+        },
+        {
+          "tech_id": "300",
+          "name": "lunar surface vehicle"
+        },
+        {
+          "tech_id": "303",
+          "name": "manned spacecraft (e.g., orion)"
+        },
+        {
+          "tech_id": "408",
+          "name": "reusable rocket"
+        },
+        {
+          "tech_id": "419",
+          "name": "satellite collision avoidance system"
+        },
+        {
+          "tech_id": "439",
+          "name": "small satellites (including cubesats)"
+        },
+        {
+          "tech_id": "486",
+          "name": "urban air mobility / electric vertical takeoff and landing aircraft (evtol)"
+        }
+      ]
+    },
+    {
+      "cluster_id": 3,
+      "label": "Energy, Storage, Energy Storage",
+      "cluster_short_description": "Cluster focusing on energy, storage, energy storage, power; examples: redox flow batterie, supercapacitors / ultracapacitor, solid state batterie.",
+      "top_terms": [
+        "energy",
+        "storage",
+        "energy storage",
+        "power",
+        "grid",
+        "density",
+        "batteries",
+        "ion"
+      ],
+      "group_id": 2,
+      "tech_items": [
+        {
+          "tech_id": "95",
+          "name": "battery energy storage systems (including long duration and thermal storage)"
+        },
+        {
+          "tech_id": "122",
+          "name": "calcium based batterie"
+        },
+        {
+          "tech_id": "198",
+          "name": "electric vehicle"
+        },
+        {
+          "tech_id": "207",
+          "name": "energy storage"
+        },
+        {
+          "tech_id": "218",
+          "name": "flywheel"
+        },
+        {
+          "tech_id": "248",
+          "name": "hydrogen storage"
+        },
+        {
+          "tech_id": "294",
+          "name": "long duration energy storage"
+        },
+        {
+          "tech_id": "398",
+          "name": "redox flow batterie"
+        },
+        {
+          "tech_id": "399",
+          "name": "refueling station"
+        },
+        {
+          "tech_id": "405",
+          "name": "renewable energy storage"
+        },
+        {
+          "tech_id": "448",
+          "name": "solid state batterie"
+        },
+        {
+          "tech_id": "462",
+          "name": "structural battery composite"
+        },
+        {
+          "tech_id": "464",
+          "name": "supercapacitors / ultracapacitor"
+        }
+      ]
+    },
+    {
+      "cluster_id": 4,
+      "label": "Distributed, Architecture, Api",
+      "cluster_short_description": "Cluster focusing on distributed, architecture, api, service; examples: microservices & api, integration/tooling layer, distributed computing.",
+      "top_terms": [
+        "distributed",
+        "architecture",
+        "api",
+        "service",
+        "development",
+        "message",
+        "protocols",
+        "type architecture"
+      ],
+      "group_id": 0,
+      "tech_items": [
+        {
+          "tech_id": "45",
+          "name": "ai gateway"
+        },
+        {
+          "tech_id": "169",
+          "name": "decentralized intelligent system"
+        },
+        {
+          "tech_id": "187",
+          "name": "distributed computing"
+        },
+        {
+          "tech_id": "267",
+          "name": "integration/tooling layer"
+        },
+        {
+          "tech_id": "310",
+          "name": "microservices & api"
+        },
+        {
+          "tech_id": "312",
+          "name": "modular architecture"
+        },
+        {
+          "tech_id": "318",
+          "name": "multi agent system"
+        },
+        {
+          "tech_id": "377",
+          "name": "programming frameworks (e.g., langchain, autogen, crewai)"
+        },
+        {
+          "tech_id": "463",
+          "name": "superapp"
+        }
+      ]
+    },
+    {
+      "cluster_id": 5,
+      "label": "Clinical, Health, Medical",
+      "cluster_short_description": "Cluster focusing on clinical, health, medical, patient; examples: telehealth, electronic health records (ehrs), health informatic.",
+      "top_terms": [
+        "clinical",
+        "health",
+        "medical",
+        "patient",
+        "care",
+        "clinical decision",
+        "data",
+        "disease management"
+      ],
+      "group_id": 12,
+      "tech_items": [
+        {
+          "tech_id": "49",
+          "name": "ai health coaching"
+        },
+        {
+          "tech_id": "67",
+          "name": "ambient digital scribe"
+        },
+        {
+          "tech_id": "180",
+          "name": "digital therapeutic"
+        },
+        {
+          "tech_id": "201",
+          "name": "electronic health records (ehrs)"
+        },
+        {
+          "tech_id": "235",
+          "name": "health informatic"
+        },
+        {
+          "tech_id": "475",
+          "name": "telehealth"
+        }
+      ]
+    },
+    {
+      "cluster_id": 6,
+      "label": "Control, Sensors, Force",
+      "cluster_short_description": "Cluster focusing on control, sensors, force, environmental; examples: advanced robotics sensor, environmental sensor, advanced actuators and motion control.",
+      "top_terms": [
+        "control",
+        "sensors",
+        "force",
+        "environmental",
+        "monitoring",
+        "measurement",
+        "type hardware",
+        "pressure"
+      ],
+      "group_id": 3,
+      "tech_items": [
+        {
+          "tech_id": "16",
+          "name": "advanced actuators and motion control"
+        },
+        {
+          "tech_id": "17",
+          "name": "advanced battery management system"
+        },
+        {
+          "tech_id": "20",
+          "name": "advanced haptics/tactile sensing"
+        },
+        {
+          "tech_id": "23",
+          "name": "advanced robotics sensor"
+        },
+        {
+          "tech_id": "39",
+          "name": "ai enabled video surveillance"
+        },
+        {
+          "tech_id": "210",
+          "name": "environmental sensor"
+        },
+        {
+          "tech_id": "297",
+          "name": "low cost tags and sensor"
+        },
+        {
+          "tech_id": "363",
+          "name": "phased array antenna"
+        },
+        {
+          "tech_id": "394",
+          "name": "quantum sensor"
+        },
+        {
+          "tech_id": "446",
+          "name": "soft robotic"
+        },
+        {
+          "tech_id": "474",
+          "name": "tactile sensing"
+        }
+      ]
+    },
+    {
+      "cluster_id": 7,
+      "label": "Step, Reasoning, Problem",
+      "cluster_short_description": "Cluster focusing on step, reasoning, problem, sequential; examples: chain of thought reasoning, chain of thought prompting, generative engine optimization (geo).",
+      "top_terms": [
+        "step",
+        "reasoning",
+        "problem",
+        "sequential",
+        "ai",
+        "content",
+        "search",
+        "intermediate"
+      ],
+      "group_id": 17,
+      "tech_items": [
+        {
+          "tech_id": "127",
+          "name": "chain of thought prompting"
+        },
+        {
+          "tech_id": "128",
+          "name": "chain of thought reasoning"
+        },
+        {
+          "tech_id": "226",
+          "name": "generative engine optimization (geo)"
+        }
+      ]
+    },
+    {
+      "cluster_id": 8,
+      "label": "Quantum, Error, Computing",
+      "cluster_short_description": "Cluster focusing on quantum, error, computing, classical; examples: quantum processing units (qpus), qubit virtualization system, hybrid quantum classical computing system.",
+      "top_terms": [
+        "quantum",
+        "error",
+        "computing",
+        "classical",
+        "quantum computing",
+        "qubit",
+        "calibration",
+        "gate"
+      ],
+      "group_id": 18,
+      "tech_items": [
+        {
+          "tech_id": "244",
+          "name": "hybrid quantum classical computing system"
+        },
+        {
+          "tech_id": "380",
+          "name": "quantum as a service (qaas)"
+        },
+        {
+          "tech_id": "383",
+          "name": "quantum computing"
+        },
+        {
+          "tech_id": "384",
+          "name": "quantum control software"
+        },
+        {
+          "tech_id": "390",
+          "name": "quantum processing units (qpus)"
+        },
+        {
+          "tech_id": "395",
+          "name": "qubit virtualization system"
+        },
+        {
+          "tech_id": "481",
+          "name": "topological qubit"
+        }
+      ]
+    },
+    {
+      "cluster_id": 9,
+      "label": "Nuclear, Generation, Neutron",
+      "cluster_short_description": "Cluster focusing on nuclear, generation, neutron, energy; examples: nuclear fusion, fusion, nuclear energy.",
+      "top_terms": [
+        "nuclear",
+        "generation",
+        "neutron",
+        "energy",
+        "fuel",
+        "power",
+        "power generation",
+        "heat"
+      ],
+      "group_id": 2,
+      "tech_items": [
+        {
+          "tech_id": "221",
+          "name": "fusion"
+        },
+        {
+          "tech_id": "228",
+          "name": "geothermal power generation"
+        },
+        {
+          "tech_id": "251",
+          "name": "hypersonic flight"
+        },
+        {
+          "tech_id": "314",
+          "name": "molten salt reactor"
+        },
+        {
+          "tech_id": "339",
+          "name": "nuclear energy"
+        },
+        {
+          "tech_id": "340",
+          "name": "nuclear fission"
+        },
+        {
+          "tech_id": "341",
+          "name": "nuclear fusion"
+        },
+        {
+          "tech_id": "343",
+          "name": "ocean thermal energy conversion (otec)"
+        },
+        {
+          "tech_id": "417",
+          "name": "room temperature fusion"
+        },
+        {
+          "tech_id": "438",
+          "name": "small modular reactors (smrs)"
+        },
+        {
+          "tech_id": "477",
+          "name": "thorium based transmutation"
+        }
+      ]
+    },
+    {
+      "cluster_id": 10,
+      "label": "Protocol, Data, Infrastructure",
+      "cluster_short_description": "Cluster focusing on protocol, data, infrastructure, quantum; examples: internet of things (iot), intelligent grid system, advanced connectivity.",
+      "top_terms": [
+        "protocol",
+        "data",
+        "infrastructure",
+        "quantum",
+        "grid",
+        "energy",
+        "systems",
+        "communication"
+      ],
+      "group_id": 0,
+      "tech_items": [
+        {
+          "tech_id": "18",
+          "name": "advanced connectivity"
+        },
+        {
+          "tech_id": "71",
+          "name": "application proxy"
+        },
+        {
+          "tech_id": "81",
+          "name": "automotive iot"
+        },
+        {
+          "tech_id": "93",
+          "name": "backscatter communication"
+        },
+        {
+          "tech_id": "264",
+          "name": "industrial internet of things (iiot)"
+        },
+        {
+          "tech_id": "268",
+          "name": "intelligent grid system"
+        },
+        {
+          "tech_id": "270",
+          "name": "internet of things (iot)"
+        },
+        {
+          "tech_id": "271",
+          "name": "internet of underwater things (iout)"
+        },
+        {
+          "tech_id": "272",
+          "name": "interoperability tech"
+        },
+        {
+          "tech_id": "307",
+          "name": "metamaterial"
+        },
+        {
+          "tech_id": "335",
+          "name": "new energy at scale"
+        },
+        {
+          "tech_id": "389",
+          "name": "quantum networking"
+        },
+        {
+          "tech_id": "443",
+          "name": "smart grid"
+        }
+      ]
+    },
+    {
+      "cluster_id": 11,
+      "label": "Quantum, Encryption, Cryptographic",
+      "cluster_short_description": "Cluster focusing on quantum, encryption, cryptographic, key; examples: quantum resistant cryptography, quantum resistant algorithm, public key cryptography  (asymmetric cryptography).",
+      "top_terms": [
+        "quantum",
+        "encryption",
+        "cryptographic",
+        "key",
+        "secure",
+        "privacy",
+        "cryptography",
+        "security"
+      ],
+      "group_id": 10,
+      "tech_items": [
+        {
+          "tech_id": "239",
+          "name": "homomorphic encryption"
+        },
+        {
+          "tech_id": "367",
+          "name": "post quantum cryptography"
+        },
+        {
+          "tech_id": "374",
+          "name": "privacy enhancing tech"
+        },
+        {
+          "tech_id": "378",
+          "name": "public key cryptography  (asymmetric cryptography)"
+        },
+        {
+          "tech_id": "382",
+          "name": "quantum communication"
+        },
+        {
+          "tech_id": "387",
+          "name": "quantum error correction"
+        },
+        {
+          "tech_id": "388",
+          "name": "quantum key distribution (qkd)"
+        },
+        {
+          "tech_id": "391",
+          "name": "quantum resistant algorithm"
+        },
+        {
+          "tech_id": "392",
+          "name": "quantum resistant cryptography"
+        },
+        {
+          "tech_id": "393",
+          "name": "quantum secured algorithm"
+        },
+        {
+          "tech_id": "469",
+          "name": "symmetric cryptography"
+        },
+        {
+          "tech_id": "503",
+          "name": "zero knowledge proof"
+        }
+      ]
+    },
+    {
+      "cluster_id": 12,
+      "label": "Blockchain, Cryptographic, Digital",
+      "cluster_short_description": "Cluster focusing on blockchain, cryptographic, digital, transaction; examples: decentralized applications (dapps), decentralized finance (defi), cryptocurrency.",
+      "top_terms": [
+        "blockchain",
+        "cryptographic",
+        "digital",
+        "transaction",
+        "decentralized",
+        "chain",
+        "consensus",
+        "smart contract"
+      ],
+      "group_id": 0,
+      "tech_items": [
+        {
+          "tech_id": "116",
+          "name": "blockchain"
+        },
+        {
+          "tech_id": "117",
+          "name": "blockchain and distributed ledger"
+        },
+        {
+          "tech_id": "126",
+          "name": "central bank digital currencies  (cbdcs)"
+        },
+        {
+          "tech_id": "153",
+          "name": "crypto wallet"
+        },
+        {
+          "tech_id": "154",
+          "name": "cryptocurrency"
+        },
+        {
+          "tech_id": "165",
+          "name": "decentralized applications (dapps)"
+        },
+        {
+          "tech_id": "166",
+          "name": "decentralized exchanges (dexs)"
+        },
+        {
+          "tech_id": "167",
+          "name": "decentralized finance (defi)"
+        },
+        {
+          "tech_id": "174",
+          "name": "digital asset"
+        },
+        {
+          "tech_id": "204",
+          "name": "empiric ai"
+        },
+        {
+          "tech_id": "285",
+          "name": "layer 2 blockchain"
+        },
+        {
+          "tech_id": "288",
+          "name": "liquid staking"
+        },
+        {
+          "tech_id": "406",
+          "name": "restaking"
+        },
+        {
+          "tech_id": "422",
+          "name": "scaling blockchain"
+        },
+        {
+          "tech_id": "441",
+          "name": "smart contract"
+        },
+        {
+          "tech_id": "459",
+          "name": "stablecoin"
+        },
+        {
+          "tech_id": "480",
+          "name": "tokenization (including stablecoins, nfts, tokenized real-world/financial assets)"
+        },
+        {
+          "tech_id": "489",
+          "name": "virtual credit cards (for ai agent)"
+        }
+      ]
+    },
+    {
+      "cluster_id": 13,
+      "label": "Attention, Cross Modal, Multimodal",
+      "cluster_short_description": "Cluster focusing on attention, cross modal, multimodal, cross; examples: large multimodal models (lmms), multimodal model, vision language models (vlms).",
+      "top_terms": [
+        "attention",
+        "cross modal",
+        "multimodal",
+        "cross",
+        "modal attention",
+        "modal",
+        "language",
+        "neural"
+      ],
+      "group_id": 1,
+      "tech_items": [
+        {
+          "tech_id": "245",
+          "name": "hybrid rag"
+        },
+        {
+          "tech_id": "280",
+          "name": "large multimodal models (lmms)"
+        },
+        {
+          "tech_id": "295",
+          "name": "long term memory"
+        },
+        {
+          "tech_id": "320",
+          "name": "multimodal data integration (text, images, video)"
+        },
+        {
+          "tech_id": "321",
+          "name": "multimodal model"
+        },
+        {
+          "tech_id": "413",
+          "name": "robotic foundation models (rfms)"
+        },
+        {
+          "tech_id": "483",
+          "name": "transformer model"
+        },
+        {
+          "tech_id": "492",
+          "name": "vision language action (vla) model"
+        },
+        {
+          "tech_id": "493",
+          "name": "vision language models (vlms)"
+        },
+        {
+          "tech_id": "501",
+          "name": "xlstm"
+        }
+      ]
+    },
+    {
+      "cluster_id": 14,
+      "label": "Physiological, Monitoring, Health",
+      "cluster_short_description": "Cluster focusing on physiological, monitoring, health, physiological signals; examples: wearable sensor, wearable computing, biometric monitoring.",
+      "top_terms": [
+        "physiological",
+        "monitoring",
+        "health",
+        "physiological signals",
+        "motion",
+        "joint",
+        "devices",
+        "continuous"
+      ],
+      "group_id": 3,
+      "tech_items": [
+        {
+          "tech_id": "112",
+          "name": "biometric monitoring"
+        },
+        {
+          "tech_id": "212",
+          "name": "exoskeleton"
+        },
+        {
+          "tech_id": "497",
+          "name": "wearable computing"
+        },
+        {
+          "tech_id": "498",
+          "name": "wearable sensor"
+        }
+      ]
+    },
+    {
+      "cluster_id": 15,
+      "label": "Material, Layer, Printing",
+      "cluster_short_description": "Cluster focusing on material, layer, printing, fabrication; examples: 3d printing, additive manufacturing, 3d bioprinting and tissue engineering.",
+      "top_terms": [
+        "material",
+        "layer",
+        "printing",
+        "fabrication",
+        "manufacturing",
+        "deposition",
+        "additive",
+        "genus additive"
+      ],
+      "group_id": 16,
+      "tech_items": [
+        {
+          "tech_id": "1",
+          "name": "3d bioprinting and tissue engineering"
+        },
+        {
+          "tech_id": "3",
+          "name": "3d printing"
+        },
+        {
+          "tech_id": "4",
+          "name": "4d printing"
+        },
+        {
+          "tech_id": "15",
+          "name": "additive manufacturing"
+        },
+        {
+          "tech_id": "115",
+          "name": "bioprinting"
+        },
+        {
+          "tech_id": "281",
+          "name": "laser additive manufacturing"
+        },
+        {
+          "tech_id": "372",
+          "name": "printed electronic"
+        },
+        {
+          "tech_id": "444",
+          "name": "smart material"
+        }
+      ]
+    },
+    {
+      "cluster_id": 16,
+      "label": "Sequencing, Analysis, Molecular",
+      "cluster_short_description": "Cluster focusing on sequencing, analysis, molecular, dna; examples: single cell analysis, single cell genomic, omics (single-cell sequencing, proteomics, multiomics).",
+      "top_terms": [
+        "sequencing",
+        "analysis",
+        "molecular",
+        "dna",
+        "rna",
+        "cancer",
+        "cell",
+        "drug"
+      ],
+      "group_id": 6,
+      "tech_items": [
+        {
+          "tech_id": "190",
+          "name": "dna sequencing"
+        },
+        {
+          "tech_id": "286",
+          "name": "liquid biopsy"
+        },
+        {
+          "tech_id": "315",
+          "name": "mrna (messenger rna)"
+        },
+        {
+          "tech_id": "319",
+          "name": "multi cancer screening (liquid biopsy)"
+        },
+        {
+          "tech_id": "322",
+          "name": "multiomic"
+        },
+        {
+          "tech_id": "344",
+          "name": "omics (single-cell sequencing, proteomics, multiomics)"
+        },
+        {
+          "tech_id": "361",
+          "name": "personalized/precision medicine"
+        },
+        {
+          "tech_id": "362",
+          "name": "pharmacogenomic"
+        },
+        {
+          "tech_id": "381",
+          "name": "quantum chemistry"
+        },
+        {
+          "tech_id": "410",
+          "name": "rnai (rna interference)"
+        },
+        {
+          "tech_id": "435",
+          "name": "single cell analysis"
+        },
+        {
+          "tech_id": "436",
+          "name": "single cell genomic"
+        },
+        {
+          "tech_id": "460",
+          "name": "stem cell therapies that work"
+        }
+      ]
+    },
+    {
+      "cluster_id": 17,
+      "label": "Spatial, Monitoring, Satellite",
+      "cluster_short_description": "Cluster focusing on spatial, monitoring, satellite, data; examples: ai driven earth observation system, location risk intelligence, spatial intelligence.",
+      "top_terms": [
+        "spatial",
+        "monitoring",
+        "satellite",
+        "data",
+        "environmental",
+        "environmental monitoring",
+        "sensor",
+        "assessment"
+      ],
+      "group_id": 19,
+      "tech_items": [
+        {
+          "tech_id": "36",
+          "name": "ai driven earth observation system"
+        },
+        {
+          "tech_id": "152",
+          "name": "crop intelligence"
+        },
+        {
+          "tech_id": "291",
+          "name": "location based augmented reality"
+        },
+        {
+          "tech_id": "292",
+          "name": "location risk intelligence"
+        },
+        {
+          "tech_id": "304",
+          "name": "measurement, reporting, and verification (mrv) systems"
+        },
+        {
+          "tech_id": "342",
+          "name": "observability tools (e.g., langsmith)"
+        },
+        {
+          "tech_id": "403",
+          "name": "remote sensing"
+        },
+        {
+          "tech_id": "454",
+          "name": "space traffic management (stm)"
+        },
+        {
+          "tech_id": "456",
+          "name": "spatial intelligence"
+        },
+        {
+          "tech_id": "457",
+          "name": "spatial processing"
+        }
+      ]
+    },
+    {
+      "cluster_id": 18,
+      "label": "Delivery, Therapeutic, Release",
+      "cluster_short_description": "Cluster focusing on delivery, therapeutic, release, medical; examples: nanomedicine, engineered living therapeutic, gene editing.",
+      "top_terms": [
+        "delivery",
+        "therapeutic",
+        "release",
+        "medical",
+        "biological",
+        "rna",
+        "lipid",
+        "genetic"
+      ],
+      "group_id": 4,
+      "tech_items": [
+        {
+          "tech_id": "110",
+          "name": "biomaterials (eco-friendly, e.g., collagen scaffolds)"
+        },
+        {
+          "tech_id": "208",
+          "name": "engineered living therapeutic"
+        },
+        {
+          "tech_id": "222",
+          "name": "gene editing"
+        },
+        {
+          "tech_id": "293",
+          "name": "long acting hiv prevention med"
+        },
+        {
+          "tech_id": "316",
+          "name": "mrna lipid nanoparticle technology"
+        },
+        {
+          "tech_id": "324",
+          "name": "nanomedicine"
+        },
+        {
+          "tech_id": "325",
+          "name": "nanotechnology"
+        }
+      ]
+    },
+    {
+      "cluster_id": 19,
+      "label": "Language, Speech, Natural Language",
+      "cluster_short_description": "Cluster focusing on language, speech, natural language, natural; examples: personalized assistant, ai powered voice assistant, natural language processing.",
+      "top_terms": [
+        "language",
+        "speech",
+        "natural language",
+        "natural",
+        "voice",
+        "automation",
+        "conversational",
+        "audio"
+      ],
+      "group_id": 1,
+      "tech_items": [
+        {
+          "tech_id": "10",
+          "name": "acoustic ai"
+        },
+        {
+          "tech_id": "11",
+          "name": "acoustic sensing with ai"
+        },
+        {
+          "tech_id": "26",
+          "name": "agent concierge system"
+        },
+        {
+          "tech_id": "30",
+          "name": "ai augmented metadata management"
+        },
+        {
+          "tech_id": "33",
+          "name": "ai coache"
+        },
+        {
+          "tech_id": "34",
+          "name": "ai copilot"
+        },
+        {
+          "tech_id": "51",
+          "name": "ai powered chatbot"
+        },
+        {
+          "tech_id": "57",
+          "name": "ai powered voice assistant"
+        },
+        {
+          "tech_id": "60",
+          "name": "ai search engine"
+        },
+        {
+          "tech_id": "63",
+          "name": "ai voice cloning"
+        },
+        {
+          "tech_id": "130",
+          "name": "chatbot"
+        },
+        {
+          "tech_id": "176",
+          "name": "digital coworker"
+        },
+        {
+          "tech_id": "213",
+          "name": "explainable ai"
+        },
+        {
+          "tech_id": "224",
+          "name": "generative ai search"
+        },
+        {
+          "tech_id": "278",
+          "name": "large action models (lams)"
+        },
+        {
+          "tech_id": "327",
+          "name": "natural language processing"
+        },
+        {
+          "tech_id": "357",
+          "name": "personal ai"
+        },
+        {
+          "tech_id": "359",
+          "name": "personal large action model"
+        },
+        {
+          "tech_id": "360",
+          "name": "personalized assistant"
+        },
+        {
+          "tech_id": "428",
+          "name": "semantic ai"
+        },
+        {
+          "tech_id": "445",
+          "name": "smart speech robot"
+        },
+        {
+          "tech_id": "458",
+          "name": "speech to speech model"
+        },
+        {
+          "tech_id": "494",
+          "name": "voice user interfaces (vuis)"
+        }
+      ]
+    },
+    {
+      "cluster_id": 20,
+      "label": "Learning, Optimization, Machine Learning",
+      "cluster_short_description": "Cluster focusing on learning, optimization, machine learning, reward; examples: adaptive ai, reinforcement learning, fast learning robot.",
+      "top_terms": [
+        "learning",
+        "optimization",
+        "machine learning",
+        "reward",
+        "model",
+        "machine",
+        "genus machine",
+        "performance"
+      ],
+      "group_id": 1,
+      "tech_items": [
+        {
+          "tech_id": "12",
+          "name": "adaptative materials modelling"
+        },
+        {
+          "tech_id": "13",
+          "name": "adaptive ai"
+        },
+        {
+          "tech_id": "54",
+          "name": "ai powered fleet management/logistic"
+        },
+        {
+          "tech_id": "151",
+          "name": "continuous learning"
+        },
+        {
+          "tech_id": "158",
+          "name": "data centric ai"
+        },
+        {
+          "tech_id": "171",
+          "name": "deep reinforcement learning"
+        },
+        {
+          "tech_id": "214",
+          "name": "fast learning robot"
+        },
+        {
+          "tech_id": "249",
+          "name": "hyperparameter tuning"
+        },
+        {
+          "tech_id": "265",
+          "name": "inference time compute"
+        },
+        {
+          "tech_id": "358",
+          "name": "personal algorithm"
+        },
+        {
+          "tech_id": "400",
+          "name": "reinforcement learning"
+        },
+        {
+          "tech_id": "401",
+          "name": "reinforcement learning with human feedback (rlhf)"
+        },
+        {
+          "tech_id": "434",
+          "name": "simulation based learning"
+        },
+        {
+          "tech_id": "465",
+          "name": "supervised fine tuning (sft)"
+        }
+      ]
+    },
+    {
+      "cluster_id": 21,
+      "label": "Digital, Virtual, Reality",
+      "cluster_short_description": "Cluster focusing on digital, virtual, reality, tracking; examples: immersive reality technologie, virtual reality (vr), immersive technologies & wearable.",
+      "top_terms": [
+        "digital",
+        "virtual",
+        "reality",
+        "tracking",
+        "spatial",
+        "latency",
+        "immersive",
+        "rendering"
+      ],
+      "group_id": 3,
+      "tech_items": [
+        {
+          "tech_id": "14",
+          "name": "adaptive technology"
+        },
+        {
+          "tech_id": "19",
+          "name": "advanced haptic feedback devices (e.g., haptic gloves, vr treadmill)"
+        },
+        {
+          "tech_id": "56",
+          "name": "ai-powered rendering, tracking, and processing for ar/vr"
+        },
+        {
+          "tech_id": "76",
+          "name": "augmented reality (ar)"
+        },
+        {
+          "tech_id": "175",
+          "name": "digital avatars (e.g., apple persona)"
+        },
+        {
+          "tech_id": "220",
+          "name": "fpv (first person view) drone"
+        },
+        {
+          "tech_id": "255",
+          "name": "immersive platform"
+        },
+        {
+          "tech_id": "256",
+          "name": "immersive reality technologie"
+        },
+        {
+          "tech_id": "257",
+          "name": "immersive technologies & wearable"
+        },
+        {
+          "tech_id": "311",
+          "name": "mixed reality"
+        },
+        {
+          "tech_id": "323",
+          "name": "multisensory vr systems (e-taste, flavor simulation)"
+        },
+        {
+          "tech_id": "442",
+          "name": "smart glasses"
+        },
+        {
+          "tech_id": "455",
+          "name": "spatial computing"
+        },
+        {
+          "tech_id": "490",
+          "name": "virtual reality (vr)"
+        }
+      ]
+    },
+    {
+      "cluster_id": 22,
+      "label": "Neural, Signal, Brain",
+      "cluster_short_description": "Cluster focusing on neural, signal, brain, stimulation; examples: neurotechnology, brainвЂ“computer interfaces (bci), brain computer interface.",
+      "top_terms": [
+        "neural",
+        "signal",
+        "brain",
+        "stimulation",
+        "potentials",
+        "neural interface",
+        "eeg",
+        "computer interfaces"
+      ],
+      "group_id": 14,
+      "tech_items": [
+        {
+          "tech_id": "97",
+          "name": "bidirectional brain machine interfaces (bbmis)"
+        },
+        {
+          "tech_id": "104",
+          "name": "bioengineered neurointerface"
+        },
+        {
+          "tech_id": "108",
+          "name": "biological interface"
+        },
+        {
+          "tech_id": "118",
+          "name": "brain computer interface"
+        },
+        {
+          "tech_id": "119",
+          "name": "brainвЂ“computer interfaces (bci)"
+        },
+        {
+          "tech_id": "229",
+          "name": "glp 1s for neurodegenerative disease"
+        },
+        {
+          "tech_id": "334",
+          "name": "neurotechnology"
+        }
+      ]
+    },
+    {
+      "cluster_id": 23,
+      "label": "Design, Genetic, Biological",
+      "cluster_short_description": "Cluster focusing on design, genetic, biological, material; examples: synthetic biology, bio engineered material, bio computation platform.",
+      "top_terms": [
+        "design",
+        "genetic",
+        "biological",
+        "material",
+        "engineering",
+        "dna",
+        "sustainable",
+        "recycled"
+      ],
+      "group_id": 4,
+      "tech_items": [
+        {
+          "tech_id": "99",
+          "name": "bio computation platform"
+        },
+        {
+          "tech_id": "100",
+          "name": "bio engineered material"
+        },
+        {
+          "tech_id": "131",
+          "name": "circular economy manufacturing"
+        },
+        {
+          "tech_id": "225",
+          "name": "generative design engineering"
+        },
+        {
+          "tech_id": "373",
+          "name": "privacy engineering"
+        },
+        {
+          "tech_id": "466",
+          "name": "sustainable concrete technologie"
+        },
+        {
+          "tech_id": "470",
+          "name": "synthetic biology"
+        },
+        {
+          "tech_id": "471",
+          "name": "synthetic chromosome"
+        }
+      ]
+    },
+    {
+      "cluster_id": 24,
+      "label": "Satellite, Orbital, Global",
+      "cluster_short_description": "Cluster focusing on satellite, orbital, global, terrestrial; examples: space based data service, satellite based communication, non terrestrial networks (ntns).",
+      "top_terms": [
+        "satellite",
+        "orbital",
+        "global",
+        "terrestrial",
+        "coverage",
+        "ground",
+        "space",
+        "ground station"
+      ],
+      "group_id": 7,
+      "tech_items": [
+        {
+          "tech_id": "8",
+          "name": "5g from space"
+        },
+        {
+          "tech_id": "185",
+          "name": "direct to device satellite communication"
+        },
+        {
+          "tech_id": "186",
+          "name": "direct to device satellite connectivity"
+        },
+        {
+          "tech_id": "298",
+          "name": "low earth orbit (leo) satellite"
+        },
+        {
+          "tech_id": "338",
+          "name": "non terrestrial networks (ntns)"
+        },
+        {
+          "tech_id": "418",
+          "name": "satellite based communication"
+        },
+        {
+          "tech_id": "420",
+          "name": "satellite constellation"
+        },
+        {
+          "tech_id": "421",
+          "name": "satellite infrastructure"
+        },
+        {
+          "tech_id": "451",
+          "name": "space based data center"
+        },
+        {
+          "tech_id": "452",
+          "name": "space based data service"
+        },
+        {
+          "tech_id": "453",
+          "name": "space based solar power"
+        }
+      ]
+    },
+    {
+      "cluster_id": 25,
+      "label": "Knowledge, Language, Learning",
+      "cluster_short_description": "Cluster focusing on knowledge, language, learning, architecture; examples: foundation model, large language models (llms), small language model.",
+      "top_terms": [
+        "knowledge",
+        "language",
+        "learning",
+        "architecture",
+        "models",
+        "domain",
+        "model",
+        "attention"
+      ],
+      "group_id": 1,
+      "tech_items": [
+        {
+          "tech_id": "73",
+          "name": "artificial general intelligence (agi)"
+        },
+        {
+          "tech_id": "74",
+          "name": "artificial superintelligence (asi)"
+        },
+        {
+          "tech_id": "107",
+          "name": "biollm"
+        },
+        {
+          "tech_id": "170",
+          "name": "deep learning model"
+        },
+        {
+          "tech_id": "219",
+          "name": "foundation model"
+        },
+        {
+          "tech_id": "279",
+          "name": "large language models (llms)"
+        },
+        {
+          "tech_id": "289",
+          "name": "llm (large language model)"
+        },
+        {
+          "tech_id": "329",
+          "name": "neural network"
+        },
+        {
+          "tech_id": "397",
+          "name": "reasoning model"
+        },
+        {
+          "tech_id": "407",
+          "name": "retrieval augmented generation (rag)"
+        },
+        {
+          "tech_id": "437",
+          "name": "small language model"
+        },
+        {
+          "tech_id": "440",
+          "name": "small/distilled/quantized model"
+        }
+      ]
+    },
+    {
+      "cluster_id": 26,
+      "label": "Optical, Photonic, Light",
+      "cluster_short_description": "Cluster focusing on optical, photonic, light, wavelength; examples: optical interconnect, silicon photonic, die to die optical interconnect.",
+      "top_terms": [
+        "optical",
+        "photonic",
+        "light",
+        "wavelength",
+        "laser",
+        "silicon",
+        "high",
+        "electrical"
+      ],
+      "group_id": 5,
+      "tech_items": [
+        {
+          "tech_id": "140",
+          "name": "co packaged optic"
+        },
+        {
+          "tech_id": "173",
+          "name": "die to die optical interconnect"
+        },
+        {
+          "tech_id": "283",
+          "name": "laser communication"
+        },
+        {
+          "tech_id": "309",
+          "name": "microled photonic"
+        },
+        {
+          "tech_id": "345",
+          "name": "optical circuit switching"
+        },
+        {
+          "tech_id": "346",
+          "name": "optical computing"
+        },
+        {
+          "tech_id": "347",
+          "name": "optical fiber"
+        },
+        {
+          "tech_id": "348",
+          "name": "optical ground antenna"
+        },
+        {
+          "tech_id": "349",
+          "name": "optical interconnect"
+        },
+        {
+          "tech_id": "356",
+          "name": "perovskite tandem solar panel"
+        },
+        {
+          "tech_id": "364",
+          "name": "photonic computing"
+        },
+        {
+          "tech_id": "365",
+          "name": "photonic interposer"
+        },
+        {
+          "tech_id": "385",
+          "name": "quantum dot laser"
+        },
+        {
+          "tech_id": "433",
+          "name": "silicon photonic"
+        },
+        {
+          "tech_id": "476",
+          "name": "thin film lithium niobate (tfln) modulator"
+        }
+      ]
+    },
+    {
+      "cluster_id": 27,
+      "label": "Imaging, Light, Optical",
+      "cluster_short_description": "Cluster focusing on imaging, light, optical, spectral; examples: laser based medical imaging, biophotonic, remote photoplethysmography tool.",
+      "top_terms": [
+        "imaging",
+        "light",
+        "optical",
+        "spectral",
+        "monitoring",
+        "non",
+        "infrared",
+        "analysis"
+      ],
+      "group_id": 6,
+      "tech_items": [
+        {
+          "tech_id": "114",
+          "name": "biophotonic"
+        },
+        {
+          "tech_id": "132",
+          "name": "circulating biomarker"
+        },
+        {
+          "tech_id": "253",
+          "name": "imaging and radiomic"
+        },
+        {
+          "tech_id": "282",
+          "name": "laser based medical imaging"
+        },
+        {
+          "tech_id": "350",
+          "name": "optical neuromonitoring"
+        },
+        {
+          "tech_id": "351",
+          "name": "optogenetic"
+        },
+        {
+          "tech_id": "386",
+          "name": "quantum enhanced measurement"
+        },
+        {
+          "tech_id": "396",
+          "name": "raman spectroscopy"
+        },
+        {
+          "tech_id": "402",
+          "name": "remote photoplethysmography tool"
+        },
+        {
+          "tech_id": "404",
+          "name": "hyperspectral imaging"
+        },
+        {
+          "tech_id": "482",
+          "name": "touchless biometric"
+        }
+      ]
+    },
+    {
+      "cluster_id": 28,
+      "label": "Manufacturing, Microgravity, Space",
+      "cluster_short_description": "Cluster focusing on manufacturing, microgravity, space, orbital; examples: in space manufacturing, in orbit manufacturing, zero gravity manufacturing.",
+      "top_terms": [
+        "manufacturing",
+        "microgravity",
+        "space",
+        "orbital",
+        "additive",
+        "vacuum",
+        "fabrication",
+        "terrestrial additive"
+      ],
+      "group_id": 20,
+      "tech_items": [
+        {
+          "tech_id": "21",
+          "name": "advanced in space refueling"
+        },
+        {
+          "tech_id": "260",
+          "name": "in orbit manufacturing"
+        },
+        {
+          "tech_id": "262",
+          "name": "in space manufacturing"
+        },
+        {
+          "tech_id": "502",
+          "name": "zero gravity manufacturing"
+        }
+      ]
+    },
+    {
+      "cluster_id": 29,
+      "label": "Energy, Renewable, Carbon",
+      "cluster_short_description": "Cluster focusing on energy, renewable, carbon, hydrogen; examples: hydrogen production (including electrolyzers), green hydrogen, sustainable fuels (e-fuels, advanced biofuels, synthetic fuels).",
+      "top_terms": [
+        "energy",
+        "renewable",
+        "carbon",
+        "hydrogen",
+        "waste",
+        "production",
+        "fuel",
+        "water"
+      ],
+      "group_id": 2,
+      "tech_items": [
+        {
+          "tech_id": "96",
+          "name": "battery recycling"
+        },
+        {
+          "tech_id": "105",
+          "name": "biofuel"
+        },
+        {
+          "tech_id": "106",
+          "name": "biogas and biomass"
+        },
+        {
+          "tech_id": "120",
+          "name": "brine crystallisation"
+        },
+        {
+          "tech_id": "123",
+          "name": "carbon capture and storage (ccs)"
+        },
+        {
+          "tech_id": "133",
+          "name": "cleaner jet fuel"
+        },
+        {
+          "tech_id": "200",
+          "name": "electrobiosynthesis"
+        },
+        {
+          "tech_id": "203",
+          "name": "embryo cryopreservation"
+        },
+        {
+          "tech_id": "209",
+          "name": "enhanced geothermal systems (egs)"
+        },
+        {
+          "tech_id": "231",
+          "name": "green hydrogen"
+        },
+        {
+          "tech_id": "232",
+          "name": "green methanol shipping, circular supply chain"
+        },
+        {
+          "tech_id": "233",
+          "name": "green nitrogen fixation"
+        },
+        {
+          "tech_id": "234",
+          "name": "green steel"
+        },
+        {
+          "tech_id": "247",
+          "name": "hydrogen production (including electrolyzers)"
+        },
+        {
+          "tech_id": "326",
+          "name": "nanozyme"
+        },
+        {
+          "tech_id": "467",
+          "name": "sustainable fuels (e-fuels, advanced biofuels, synthetic fuels)"
+        },
+        {
+          "tech_id": "495",
+          "name": "waste heat recovery"
+        }
+      ]
+    },
+    {
+      "cluster_id": 30,
+      "label": "Environmental, Autonomous, Adaptive",
+      "cluster_short_description": "Cluster focusing on environmental, autonomous, adaptive, systems; examples: ai agent, autonomous agent, cognitive robotics system.",
+      "top_terms": [
+        "environmental",
+        "autonomous",
+        "adaptive",
+        "systems",
+        "robotics",
+        "behavior",
+        "sensor",
+        "decision"
+      ],
+      "group_id": 1,
+      "tech_items": [
+        {
+          "tech_id": "28",
+          "name": "ai agent"
+        },
+        {
+          "tech_id": "48",
+          "name": "ai governance platform"
+        },
+        {
+          "tech_id": "52",
+          "name": "ai powered command & control system"
+        },
+        {
+          "tech_id": "66",
+          "name": "ambient computing"
+        },
+        {
+          "tech_id": "68",
+          "name": "ambient invisible intelligence"
+        },
+        {
+          "tech_id": "82",
+          "name": "autonomous agent"
+        },
+        {
+          "tech_id": "101",
+          "name": "bio inspired processing"
+        },
+        {
+          "tech_id": "102",
+          "name": "bio inspired robotic"
+        },
+        {
+          "tech_id": "141",
+          "name": "coding automation tool"
+        },
+        {
+          "tech_id": "142",
+          "name": "cognitive robotics system"
+        },
+        {
+          "tech_id": "202",
+          "name": "embodied ai"
+        },
+        {
+          "tech_id": "296",
+          "name": "low code application platforms (lcaps)"
+        },
+        {
+          "tech_id": "317",
+          "name": "multi agent autonomy"
+        },
+        {
+          "tech_id": "427",
+          "name": "self driving labs (sdls)"
+        },
+        {
+          "tech_id": "468",
+          "name": "swarm robotics system"
+        }
+      ]
+    },
+    {
+      "cluster_id": 31,
+      "label": "Culture, Cell, Water",
+      "cluster_short_description": "Cluster focusing on culture, cell, water, light; examples: cell cultivation system, algae bioreactor, organs on chip.",
+      "top_terms": [
+        "culture",
+        "cell",
+        "water",
+        "light",
+        "cell culture",
+        "lighting",
+        "wastewater",
+        "co₂"
+      ],
+      "group_id": 15,
+      "tech_items": [
+        {
+          "tech_id": "64",
+          "name": "algae bioreactor"
+        },
+        {
+          "tech_id": "103",
+          "name": "bioengineered light emitting plant"
+        },
+        {
+          "tech_id": "125",
+          "name": "cell cultivation system"
+        },
+        {
+          "tech_id": "353",
+          "name": "organs on chip"
+        },
+        {
+          "tech_id": "496",
+          "name": "water treatment system"
+        }
+      ]
+    },
+    {
+      "cluster_id": 32,
+      "label": "Synthesis, Fermentation, Chemical",
+      "cluster_short_description": "Cluster focusing on synthesis, fermentation, chemical, chemical synthesis; examples: precision fermentation, biomanufacturing, precision bio production.",
+      "top_terms": [
+        "synthesis",
+        "fermentation",
+        "chemical",
+        "chemical synthesis",
+        "metabolic",
+        "optimization",
+        "control",
+        "dna"
+      ],
+      "group_id": 4,
+      "tech_items": [
+        {
+          "tech_id": "44",
+          "name": "ai for protein design"
+        },
+        {
+          "tech_id": "109",
+          "name": "biomanufacturing"
+        },
+        {
+          "tech_id": "124",
+          "name": "cattle burping remedie"
+        },
+        {
+          "tech_id": "191",
+          "name": "dna synthesi"
+        },
+        {
+          "tech_id": "306",
+          "name": "metabolic engineering"
+        },
+        {
+          "tech_id": "368",
+          "name": "precision bio production"
+        },
+        {
+          "tech_id": "369",
+          "name": "precision fermentation"
+        },
+        {
+          "tech_id": "425",
+          "name": "self assembling molecule"
+        },
+        {
+          "tech_id": "473",
+          "name": "synthetic rna"
+        }
+      ]
+    },
+    {
+      "cluster_id": 33,
+      "label": "Security, Threat, Automated",
+      "cluster_short_description": "Cluster focusing on security, threat, automated, detection; examples: ai driven threat detection and cybersecurity tool, self driven ai cybersecurity algorithm, security operations center ai agent.",
+      "top_terms": [
+        "security",
+        "threat",
+        "automated",
+        "detection",
+        "response",
+        "access",
+        "cyber",
+        "cybersecurity"
+      ],
+      "group_id": 21,
+      "tech_items": [
+        {
+          "tech_id": "38",
+          "name": "ai driven threat detection and cybersecurity tool"
+        },
+        {
+          "tech_id": "47",
+          "name": "ai generated phishing and malware technique"
+        },
+        {
+          "tech_id": "59",
+          "name": "ai runtime protection"
+        },
+        {
+          "tech_id": "113",
+          "name": "biomimetic cyberdefense"
+        },
+        {
+          "tech_id": "178",
+          "name": "digital immune system"
+        },
+        {
+          "tech_id": "273",
+          "name": "just enough access (for agents)"
+        },
+        {
+          "tech_id": "274",
+          "name": "just in time access (for agents)"
+        },
+        {
+          "tech_id": "416",
+          "name": "robotics cybersecurity"
+        },
+        {
+          "tech_id": "423",
+          "name": "security monitoring automation"
+        },
+        {
+          "tech_id": "424",
+          "name": "security operations center ai agent"
+        },
+        {
+          "tech_id": "426",
+          "name": "self driven ai cybersecurity algorithm"
+        }
+      ]
+    },
+    {
+      "cluster_id": 34,
+      "label": "Silicon, Copper, Packaging",
+      "cluster_short_description": "Cluster focusing on silicon, copper, packaging, high; examples: advanced on chip interconnect, organic interposer, local silicon interconnect bridge.",
+      "top_terms": [
+        "silicon",
+        "copper",
+        "packaging",
+        "high",
+        "dielectric",
+        "memory",
+        "μm",
+        "3d"
+      ],
+      "group_id": 5,
+      "tech_items": [
+        {
+          "tech_id": "22",
+          "name": "advanced on chip interconnect"
+        },
+        {
+          "tech_id": "24",
+          "name": "advanced semiconductor manufacturing"
+        },
+        {
+          "tech_id": "217",
+          "name": "flexible/stretchable electronics  (e.g., electronic skin, smart bandages)"
+        },
+        {
+          "tech_id": "238",
+          "name": "high bandwidth memory (hbm)"
+        },
+        {
+          "tech_id": "243",
+          "name": "hybrid copper bonding"
+        },
+        {
+          "tech_id": "290",
+          "name": "local silicon interconnect bridge"
+        },
+        {
+          "tech_id": "352",
+          "name": "organic interposer"
+        }
+      ]
+    },
+    {
+      "cluster_id": 35,
+      "label": "Autonomous, Sensor, Environmental",
+      "cluster_short_description": "Cluster focusing on autonomous, sensor, environmental, industrial; examples: autonomous ground vehicles (ugvs), autonomous robot, autonomous vehicle.",
+      "top_terms": [
+        "autonomous",
+        "sensor",
+        "environmental",
+        "industrial",
+        "vehicles",
+        "robotic",
+        "automation",
+        "robots"
+      ],
+      "group_id": 3,
+      "tech_items": [
+        {
+          "tech_id": "31",
+          "name": "ai augmented robotic"
+        },
+        {
+          "tech_id": "83",
+          "name": "autonomous biochemical sensing"
+        },
+        {
+          "tech_id": "84",
+          "name": "autonomous delivery robot"
+        },
+        {
+          "tech_id": "85",
+          "name": "autonomous driving system"
+        },
+        {
+          "tech_id": "86",
+          "name": "autonomous drone"
+        },
+        {
+          "tech_id": "87",
+          "name": "autonomous ground vehicles (ugvs)"
+        },
+        {
+          "tech_id": "89",
+          "name": "autonomous mobile robots (amrs)"
+        },
+        {
+          "tech_id": "90",
+          "name": "autonomous navigation and decision making"
+        },
+        {
+          "tech_id": "91",
+          "name": "autonomous robot"
+        },
+        {
+          "tech_id": "92",
+          "name": "autonomous vehicle"
+        },
+        {
+          "tech_id": "143",
+          "name": "collaborative robot"
+        },
+        {
+          "tech_id": "148",
+          "name": "construction robotic"
+        },
+        {
+          "tech_id": "240",
+          "name": "humanoid robot"
+        },
+        {
+          "tech_id": "313",
+          "name": "modular robot"
+        },
+        {
+          "tech_id": "366",
+          "name": "polyfunctional robot"
+        },
+        {
+          "tech_id": "379",
+          "name": "quadruped robot"
+        },
+        {
+          "tech_id": "411",
+          "name": "robotaxi"
+        },
+        {
+          "tech_id": "412",
+          "name": "robotic"
+        },
+        {
+          "tech_id": "449",
+          "name": "solid state lidar"
+        },
+        {
+          "tech_id": "485",
+          "name": "uncrewed surface vessels (usvs)"
+        }
+      ]
+    },
+    {
+      "cluster_id": 36,
+      "label": "Identity, Authentication, Security",
+      "cluster_short_description": "Cluster focusing on identity, authentication, security, cryptographic; examples: digital identity (including self-sovereign identity, passwordless, converged identity), decentralized identity system, cybersecurity mesh framework (csmf).",
+      "top_terms": [
+        "identity",
+        "authentication",
+        "security",
+        "cryptographic",
+        "verification",
+        "access",
+        "cloud",
+        "encryption"
+      ],
+      "group_id": 0,
+      "tech_items": [
+        {
+          "tech_id": "111",
+          "name": "biometric authentication"
+        },
+        {
+          "tech_id": "134",
+          "name": "cloud access control platform"
+        },
+        {
+          "tech_id": "147",
+          "name": "confidential computing"
+        },
+        {
+          "tech_id": "150",
+          "name": "content credentials (c2pa standard)"
+        },
+        {
+          "tech_id": "156",
+          "name": "cybersecurity mesh framework (csmf)"
+        },
+        {
+          "tech_id": "163",
+          "name": "data mesh"
+        },
+        {
+          "tech_id": "168",
+          "name": "decentralized identity system"
+        },
+        {
+          "tech_id": "177",
+          "name": "digital identity (including self-sovereign identity, passwordless, converged identity)"
+        },
+        {
+          "tech_id": "183",
+          "name": "digital wallet"
+        },
+        {
+          "tech_id": "337",
+          "name": "non human identity"
+        },
+        {
+          "tech_id": "450",
+          "name": "sovereign cloud"
+        },
+        {
+          "tech_id": "484",
+          "name": "trusted execution environments (tees)"
+        }
+      ]
+    },
+    {
+      "cluster_id": 37,
+      "label": "Cloud, Computing, Server",
+      "cluster_short_description": "Cluster focusing on cloud, computing, server, distributed; examples: cloud and edge computing, cloud computing, edge computing (device edge, operator/network/mobile/metro edge).",
+      "top_terms": [
+        "cloud",
+        "computing",
+        "server",
+        "distributed",
+        "edge",
+        "data",
+        "architecture",
+        "infrastructure"
+      ],
+      "group_id": 0,
+      "tech_items": [
+        {
+          "tech_id": "69",
+          "name": "analytical engines for data driven insight"
+        },
+        {
+          "tech_id": "135",
+          "name": "cloud and edge computing"
+        },
+        {
+          "tech_id": "136",
+          "name": "cloud based security system"
+        },
+        {
+          "tech_id": "137",
+          "name": "cloud computing"
+        },
+        {
+          "tech_id": "139",
+          "name": "cloud video"
+        },
+        {
+          "tech_id": "157",
+          "name": "data center"
+        },
+        {
+          "tech_id": "188",
+          "name": "distributed edge intelligence network"
+        },
+        {
+          "tech_id": "195",
+          "name": "edge ai"
+        },
+        {
+          "tech_id": "197",
+          "name": "edge computing (device edge, operator/network/mobile/metro edge)"
+        },
+        {
+          "tech_id": "216",
+          "name": "finops (financial operations)"
+        },
+        {
+          "tech_id": "250",
+          "name": "hyperscale data center"
+        },
+        {
+          "tech_id": "261",
+          "name": "in row cooling"
+        },
+        {
+          "tech_id": "266",
+          "name": "integration platform as a service (ipaas)"
+        },
+        {
+          "tech_id": "308",
+          "name": "microgrid"
+        },
+        {
+          "tech_id": "429",
+          "name": "serverless computing"
+        }
+      ]
+    },
+    {
+      "cluster_id": 38,
+      "label": "Tops, Inference, Power",
+      "cluster_short_description": "Cluster focusing on tops, inference, power, neural network; examples: ai accelerators (custom), ai asic, neural processing units (npus).",
+      "top_terms": [
+        "tops",
+        "inference",
+        "power",
+        "neural network",
+        "general purpose",
+        "neural",
+        "purpose",
+        "specialized"
+      ],
+      "group_id": 13,
+      "tech_items": [
+        {
+          "tech_id": "27",
+          "name": "ai accelerators (custom)"
+        },
+        {
+          "tech_id": "29",
+          "name": "ai asic"
+        },
+        {
+          "tech_id": "50",
+          "name": "ai inference chip"
+        },
+        {
+          "tech_id": "72",
+          "name": "application specific integrated circuits (asics)"
+        },
+        {
+          "tech_id": "155",
+          "name": "custom silicon"
+        },
+        {
+          "tech_id": "196",
+          "name": "edge ai processor"
+        },
+        {
+          "tech_id": "205",
+          "name": "energy efficient gpu"
+        },
+        {
+          "tech_id": "230",
+          "name": "graphics processing units (gpus)"
+        },
+        {
+          "tech_id": "330",
+          "name": "neural processing units (npus)"
+        }
+      ]
+    },
+    {
+      "cluster_id": 39,
+      "label": "Data, Cloud, Storage",
+      "cluster_short_description": "Cluster focusing on data, cloud, storage, network; examples: digital infrastructure (sql/nosql databases, compute/storage networks), cloud storage (object/block storage), data infrastructure and management system.",
+      "top_terms": [
+        "data",
+        "cloud",
+        "storage",
+        "network",
+        "management",
+        "resource",
+        "orchestration",
+        "virtualization"
+      ],
+      "group_id": 0,
+      "tech_items": [
+        {
+          "tech_id": "61",
+          "name": "ai toolchain operator"
+        },
+        {
+          "tech_id": "70",
+          "name": "application layer"
+        },
+        {
+          "tech_id": "138",
+          "name": "cloud storage (object/block storage)"
+        },
+        {
+          "tech_id": "149",
+          "name": "containers and kubernete"
+        },
+        {
+          "tech_id": "159",
+          "name": "data fabric"
+        },
+        {
+          "tech_id": "160",
+          "name": "data infrastructure and management system"
+        },
+        {
+          "tech_id": "162",
+          "name": "data lakehouse platform"
+        },
+        {
+          "tech_id": "179",
+          "name": "digital infrastructure (sql/nosql databases, compute/storage networks)"
+        },
+        {
+          "tech_id": "241",
+          "name": "hybrid cloud migration"
+        },
+        {
+          "tech_id": "242",
+          "name": "hybrid computing"
+        },
+        {
+          "tech_id": "258",
+          "name": "immutable backup and self healing network"
+        },
+        {
+          "tech_id": "275",
+          "name": "knowledge graph"
+        },
+        {
+          "tech_id": "276",
+          "name": "kubeflow"
+        },
+        {
+          "tech_id": "277",
+          "name": "kubernete"
+        },
+        {
+          "tech_id": "328",
+          "name": "network slicing"
+        },
+        {
+          "tech_id": "487",
+          "name": "vector database"
+        },
+        {
+          "tech_id": "491",
+          "name": "virtualization"
+        }
+      ]
+    },
+    {
+      "cluster_id": 40,
+      "label": "Data, Analysis, Learning",
+      "cluster_short_description": "Cluster focusing on data, analysis, learning, statistical; examples: predictive analytic, predictive ai, data mining.",
+      "top_terms": [
+        "data",
+        "analysis",
+        "learning",
+        "statistical",
+        "pattern",
+        "prediction",
+        "feature",
+        "datasets"
+      ],
+      "group_id": 1,
+      "tech_items": [
+        {
+          "tech_id": "32",
+          "name": "ai based anomaly detection system"
+        },
+        {
+          "tech_id": "37",
+          "name": "ai driven mineral/resource exploration (e.g., kobold metals)"
+        },
+        {
+          "tech_id": "42",
+          "name": "ai for drug discovery"
+        },
+        {
+          "tech_id": "43",
+          "name": "ai for material discovery"
+        },
+        {
+          "tech_id": "129",
+          "name": "chaos engineering"
+        },
+        {
+          "tech_id": "164",
+          "name": "data mining"
+        },
+        {
+          "tech_id": "215",
+          "name": "federated learning"
+        },
+        {
+          "tech_id": "301",
+          "name": "machine learning"
+        },
+        {
+          "tech_id": "302",
+          "name": "machine learning for materials discovery"
+        },
+        {
+          "tech_id": "305",
+          "name": "mechanistic interpretability"
+        },
+        {
+          "tech_id": "331",
+          "name": "neurodecisioning"
+        },
+        {
+          "tech_id": "355",
+          "name": "parametric insurance"
+        },
+        {
+          "tech_id": "370",
+          "name": "predictive ai"
+        },
+        {
+          "tech_id": "371",
+          "name": "predictive analytic"
+        },
+        {
+          "tech_id": "472",
+          "name": "synthetic data"
+        }
+      ]
+    },
+    {
+      "cluster_id": 41,
+      "label": "Network, Spectrum, Cellular",
+      "cluster_short_description": "Cluster focusing on network, spectrum, cellular, wireless; examples: 5g and 6g cellular system, 5g, virtual cell.",
+      "top_terms": [
+        "network",
+        "spectrum",
+        "cellular",
+        "wireless",
+        "communication",
+        "base",
+        "network slicing",
+        "slicing"
+      ],
+      "group_id": 22,
+      "tech_items": [
+        {
+          "tech_id": "5",
+          "name": "5g"
+        },
+        {
+          "tech_id": "6",
+          "name": "5g advanced (5.5g)"
+        },
+        {
+          "tech_id": "7",
+          "name": "5g and 6g cellular system"
+        },
+        {
+          "tech_id": "9",
+          "name": "5g vehicle to everything (v2x) communication"
+        },
+        {
+          "tech_id": "299",
+          "name": "low-power wide-area networks (e.g., narrowband iot, lora, sigfox)"
+        },
+        {
+          "tech_id": "375",
+          "name": "private wireless networks (including private 5g)"
+        },
+        {
+          "tech_id": "488",
+          "name": "virtual cell"
+        }
+      ]
+    },
+    {
+      "cluster_id": 42,
+      "label": "Content, Image, Digital",
+      "cluster_short_description": "Cluster focusing on content, image, digital, generation; examples: generative ai, ai enhanced text to image generation, ai enhanced text to video generation.",
+      "top_terms": [
+        "content",
+        "image",
+        "digital",
+        "generation",
+        "creation",
+        "video",
+        "synthesis",
+        "prompts"
+      ],
+      "group_id": 1,
+      "tech_items": [
+        {
+          "tech_id": "2",
+          "name": "3d modeling and generative 3d environments (e.g., ai-generated textures, procedural content generation)"
+        },
+        {
+          "tech_id": "40",
+          "name": "ai enhanced text to image generation"
+        },
+        {
+          "tech_id": "41",
+          "name": "ai enhanced text to video generation"
+        },
+        {
+          "tech_id": "46",
+          "name": "ai generated avatar"
+        },
+        {
+          "tech_id": "53",
+          "name": "ai powered drug discovery (e.g., protein engineering foundry)"
+        },
+        {
+          "tech_id": "62",
+          "name": "ai vision software"
+        },
+        {
+          "tech_id": "145",
+          "name": "computer vision"
+        },
+        {
+          "tech_id": "223",
+          "name": "generative ai"
+        },
+        {
+          "tech_id": "227",
+          "name": "generative watermarking"
+        }
+      ]
+    },
+    {
+      "cluster_id": 43,
+      "label": "Memory, Spike, Von Neumann",
+      "cluster_short_description": "Cluster focusing on memory, spike, von neumann, von; examples: neuromorphic architecture, neuromorphic computing, in memory computing.",
+      "top_terms": [
+        "memory",
+        "spike",
+        "von neumann",
+        "von",
+        "neumann",
+        "neural",
+        "event",
+        "memristor"
+      ],
+      "group_id": 8,
+      "tech_items": [
+        {
+          "tech_id": "259",
+          "name": "in memory computing"
+        },
+        {
+          "tech_id": "332",
+          "name": "neuromorphic architecture"
+        },
+        {
+          "tech_id": "333",
+          "name": "neuromorphic computing"
+        }
+      ]
+    },
+    {
+      "cluster_id": 44,
+      "label": "Anode, Lithium, Volume",
+      "cluster_short_description": "Cluster focusing on anode, lithium, volume, volume expansion; examples: silicon nanowire based lithium  battery anode, silicon anode batteries, niobium anode.",
+      "top_terms": [
+        "anode",
+        "lithium",
+        "volume",
+        "volume expansion",
+        "silicon",
+        "expansion",
+        "storage",
+        "graphite"
+      ],
+      "group_id": 9,
+      "tech_items": [
+        {
+          "tech_id": "336",
+          "name": "niobium anode"
+        },
+        {
+          "tech_id": "431",
+          "name": "silicon anode batteries"
+        },
+        {
+          "tech_id": "432",
+          "name": "silicon nanowire based lithium  battery anode"
+        }
+      ]
+    },
+    {
+      "cluster_id": 45,
+      "label": "Sensor, Iot, Data",
+      "cluster_short_description": "Cluster focusing on sensor, iot, data, edge; examples: ai powered iot system, internet of robotic things (iort), digital twin ecosystem.",
+      "top_terms": [
+        "sensor",
+        "iot",
+        "data",
+        "edge",
+        "monitoring",
+        "real time",
+        "real",
+        "distributed"
+      ],
+      "group_id": 0,
+      "tech_items": [
+        {
+          "tech_id": "35",
+          "name": "ai driven advanced sensors and edge ai processor"
+        },
+        {
+          "tech_id": "55",
+          "name": "ai powered iot system"
+        },
+        {
+          "tech_id": "58",
+          "name": "ai ran (ai enabled radio access network)"
+        },
+        {
+          "tech_id": "78",
+          "name": "automated observability tool"
+        },
+        {
+          "tech_id": "88",
+          "name": "autonomous logistic"
+        },
+        {
+          "tech_id": "144",
+          "name": "collaborative sensing"
+        },
+        {
+          "tech_id": "181",
+          "name": "digital twin"
+        },
+        {
+          "tech_id": "182",
+          "name": "digital twin ecosystem"
+        },
+        {
+          "tech_id": "269",
+          "name": "internet of robotic things (iort)"
+        },
+        {
+          "tech_id": "430",
+          "name": "shared mobility platforms / mobility as a service"
+        },
+        {
+          "tech_id": "478",
+          "name": "tinyml"
+        }
+      ]
+    },
+    {
+      "cluster_id": 46,
+      "label": "Power, Energy, Thermal",
+      "cluster_short_description": "Cluster focusing on power, energy, thermal, heat; examples: electrified heat solutions (e.g., rotodynamic heater), liquid cooling, immersion cooling.",
+      "top_terms": [
+        "power",
+        "energy",
+        "thermal",
+        "heat",
+        "solar",
+        "temperature",
+        "conversion",
+        "cooling"
+      ],
+      "group_id": 2,
+      "tech_items": [
+        {
+          "tech_id": "25",
+          "name": "advanced solar pv system"
+        },
+        {
+          "tech_id": "94",
+          "name": "battery  and liquid cooling systems for data center"
+        },
+        {
+          "tech_id": "98",
+          "name": "bidirectional charging system"
+        },
+        {
+          "tech_id": "146",
+          "name": "concentrated solar power"
+        },
+        {
+          "tech_id": "184",
+          "name": "direct to chip liquid cooling"
+        },
+        {
+          "tech_id": "199",
+          "name": "electrified heat solutions (e.g., rotodynamic heater)"
+        },
+        {
+          "tech_id": "206",
+          "name": "energy optimization material"
+        },
+        {
+          "tech_id": "236",
+          "name": "heat pump"
+        },
+        {
+          "tech_id": "246",
+          "name": "hydrogen fuel cell"
+        },
+        {
+          "tech_id": "254",
+          "name": "immersion cooling"
+        },
+        {
+          "tech_id": "284",
+          "name": "laser weapon"
+        },
+        {
+          "tech_id": "287",
+          "name": "liquid cooling"
+        },
+        {
+          "tech_id": "354",
+          "name": "osmotic power system"
+        },
+        {
+          "tech_id": "447",
+          "name": "solar photovoltaics (pv)"
+        },
+        {
+          "tech_id": "499",
+          "name": "wind energy"
+        }
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "group_id": 0,
+      "group_label": "Group: Data, Cloud, Management",
+      "group_short_description": "Group of related clusters data, cloud, management, distributed; examples: distributed computing, decentralized applications (dapps), data fabric.",
+      "member_cluster_ids": [
+        1,
+        4,
+        10,
+        12,
+        36,
+        37,
+        39,
+        45
+      ]
+    },
+    {
+      "group_id": 1,
+      "group_label": "Group: Learning, Data, Language",
+      "group_short_description": "Group of related clusters learning, data, language, ai; examples: autonomous agent, ai agent, generative ai.",
+      "member_cluster_ids": [
+        13,
+        19,
+        20,
+        25,
+        30,
+        40,
+        42
+      ]
+    },
+    {
+      "group_id": 2,
+      "group_label": "Group: Energy, Power, Storage",
+      "group_short_description": "Group of related clusters energy, power, storage, thermal; examples: energy storage, battery energy storage systems (including long duration and thermal storage), redox flow batterie.",
+      "member_cluster_ids": [
+        3,
+        9,
+        29,
+        46
+      ]
+    },
+    {
+      "group_id": 3,
+      "group_label": "Group: Environmental, Type Hardware, Hardware",
+      "group_short_description": "Group of related clusters environmental, type hardware, hardware, hardware genus; examples: immersive technologies & wearable, advanced robotics sensor, wearable computing.",
+      "member_cluster_ids": [
+        6,
+        14,
+        21,
+        35
+      ]
+    },
+    {
+      "group_id": 4,
+      "group_label": "Group: Genetic, Biological, Dna",
+      "group_short_description": "Group of related clusters genetic, biological, dna, engineering; examples: synthetic biology, biomanufacturing, precision fermentation.",
+      "member_cluster_ids": [
+        18,
+        23,
+        32
+      ]
+    },
+    {
+      "group_id": 5,
+      "group_label": "Group: Optical, Silicon, High",
+      "group_short_description": "Group of related clusters optical, silicon, high, photonic; examples: advanced on chip interconnect, photonic interposer, die to die optical interconnect.",
+      "member_cluster_ids": [
+        26,
+        34
+      ]
+    },
+    {
+      "group_id": 6,
+      "group_label": "Group: Analysis, Molecular, Imaging",
+      "group_short_description": "Group of related clusters analysis, molecular, imaging, sequencing; examples: single cell analysis, omics (single-cell sequencing, proteomics, multiomics), circulating biomarker.",
+      "member_cluster_ids": [
+        16,
+        27
+      ]
+    },
+    {
+      "group_id": 7,
+      "group_label": "Group: Orbital, Space, Satellite",
+      "group_short_description": "Group of related clusters orbital, space, satellite, global; examples: satellite infrastructure, low earth orbit (leo) satellite, space based data service.",
+      "member_cluster_ids": [
+        2,
+        24
+      ]
+    },
+    {
+      "group_id": 8,
+      "group_label": "Group: Memory, Spike, Von Neumann",
+      "group_short_description": "Group of related clusters memory, spike, von neumann, von; examples: neuromorphic architecture, neuromorphic computing, in memory computing.",
+      "member_cluster_ids": [
+        43
+      ]
+    },
+    {
+      "group_id": 9,
+      "group_label": "Group: Anode, Lithium, Volume",
+      "group_short_description": "Group of related clusters anode, lithium, volume, volume expansion; examples: silicon nanowire based lithium  battery anode, silicon anode batteries, niobium anode.",
+      "member_cluster_ids": [
+        44
+      ]
+    },
+    {
+      "group_id": 10,
+      "group_label": "Group: Quantum, Encryption, Cryptographic",
+      "group_short_description": "Group of related clusters quantum, encryption, cryptographic, key; examples: quantum resistant cryptography, quantum resistant algorithm, public key cryptography  (asymmetric cryptography).",
+      "member_cluster_ids": [
+        11
+      ]
+    },
+    {
+      "group_id": 11,
+      "group_label": "Group: Laser, Lasers, Femtosecond",
+      "group_short_description": "Group of related clusters laser, lasers, femtosecond, optical; examples: attosecond pulse laser, titanium sapphire laser, x ray free electron lasers (xfels).",
+      "member_cluster_ids": [
+        0
+      ]
+    },
+    {
+      "group_id": 12,
+      "group_label": "Group: Clinical, Health, Medical",
+      "group_short_description": "Group of related clusters clinical, health, medical, patient; examples: telehealth, electronic health records (ehrs), health informatic.",
+      "member_cluster_ids": [
+        5
+      ]
+    },
+    {
+      "group_id": 13,
+      "group_label": "Group: Tops, Inference, Power",
+      "group_short_description": "Group of related clusters tops, inference, power, neural network; examples: ai accelerators (custom), ai asic, neural processing units (npus).",
+      "member_cluster_ids": [
+        38
+      ]
+    },
+    {
+      "group_id": 14,
+      "group_label": "Group: Neural, Signal, Brain",
+      "group_short_description": "Group of related clusters neural, signal, brain, stimulation; examples: neurotechnology, brainвЂ“computer interfaces (bci), brain computer interface.",
+      "member_cluster_ids": [
+        22
+      ]
+    },
+    {
+      "group_id": 15,
+      "group_label": "Group: Culture, Cell, Water",
+      "group_short_description": "Group of related clusters culture, cell, water, light; examples: cell cultivation system, algae bioreactor, organs on chip.",
+      "member_cluster_ids": [
+        31
+      ]
+    },
+    {
+      "group_id": 16,
+      "group_label": "Group: Material, Layer, Printing",
+      "group_short_description": "Group of related clusters material, layer, printing, fabrication; examples: 3d printing, additive manufacturing, 3d bioprinting and tissue engineering.",
+      "member_cluster_ids": [
+        15
+      ]
+    },
+    {
+      "group_id": 17,
+      "group_label": "Group: Step, Reasoning, Problem",
+      "group_short_description": "Group of related clusters step, reasoning, problem, sequential; examples: chain of thought reasoning, chain of thought prompting, generative engine optimization (geo).",
+      "member_cluster_ids": [
+        7
+      ]
+    },
+    {
+      "group_id": 18,
+      "group_label": "Group: Quantum, Error, Computing",
+      "group_short_description": "Group of related clusters quantum, error, computing, classical; examples: quantum processing units (qpus), qubit virtualization system, hybrid quantum classical computing system.",
+      "member_cluster_ids": [
+        8
+      ]
+    },
+    {
+      "group_id": 19,
+      "group_label": "Group: Spatial, Monitoring, Satellite",
+      "group_short_description": "Group of related clusters spatial, monitoring, satellite, data; examples: ai driven earth observation system, location risk intelligence, spatial intelligence.",
+      "member_cluster_ids": [
+        17
+      ]
+    },
+    {
+      "group_id": 20,
+      "group_label": "Group: Manufacturing, Microgravity, Space",
+      "group_short_description": "Group of related clusters manufacturing, microgravity, space, orbital; examples: in space manufacturing, in orbit manufacturing, zero gravity manufacturing.",
+      "member_cluster_ids": [
+        28
+      ]
+    },
+    {
+      "group_id": 21,
+      "group_label": "Group: Security, Threat, Automated",
+      "group_short_description": "Group of related clusters security, threat, automated, detection; examples: ai driven threat detection and cybersecurity tool, self driven ai cybersecurity algorithm, security operations center ai agent.",
+      "member_cluster_ids": [
+        33
+      ]
+    },
+    {
+      "group_id": 22,
+      "group_label": "Group: Network, Spectrum, Cellular",
+      "group_short_description": "Group of related clusters network, spectrum, cellular, wireless; examples: 5g and 6g cellular system, 5g, virtual cell.",
+      "member_cluster_ids": [
+        41
+      ]
+    }
+  ]
+}
